@@ -1,11 +1,22 @@
-# OpenChemistry Crystals
+#Crystals
+========
 
-Crystallographic files of common materials, elements, oxides, for visualization in Avogadro
+Crystal structures of over 500 common materials, elements, oxides, including:
 
-All files are available in the public domain, although most include citation information 
+* All elements
+* Common oxides (SiO2, CaO, etc.)
+* Common halides (NaCl, etc.)
+* Ice
+* Zeolites
+* Silicates, Carbonates, etc.
+* Sulfides, Selenides, Tellurides (e.g., ZnS, etc.)
+* Nitrides, Phosphides, Arsenides (e.g., GaAs, InP, etc.)
+
+All files are available in the public domain, although most include citation information
 for the original structure.
 
-Zeolite frameworks are available from the IZA Database: http://www.iza-structure.org/databases/
+All Zeolites are available from the [International Zeolite Association (IZA)
+Structure Commission](http://www.iza-structure.org/databases/).
 
-Other crystal structures are available from the Crystallographic Open Database (COD):
-http://crystallography.net/cod/
+All other crystal structures are available through the [Crystallographic Open
+Database](http://crystallography.net/cod/).
