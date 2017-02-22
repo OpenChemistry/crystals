@@ -1,0 +1,83 @@
+#------------------------------------------------------------------------------
+#$Date: 2014-07-11 14:35:18 +0000 (Fri, 11 Jul 2014) $
+#$Revision: 120071 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/1/51/33/1513334.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1513334
+loop_
+_publ_author_name
+'Joseph, J.'
+'Vimala, T.M.'
+'Sivasubramanian, V.'
+_publ_section_title
+;
+ Structural investigations on Pb (Zrx Ti1-x) O3 solid solutions using the
+ X-ray Rietveld method
+;
+_journal_name_full               'Journal of Materials Science'
+_journal_page_first              1571
+_journal_page_last               1575
+_journal_volume                  35
+_journal_year                    2000
+_chemical_formula_structural     'Pb (Zr0.1 Ti0.9) O3'
+_chemical_formula_sum            'O3 Pb Ti0.9 Zr0.1'
+_chemical_name_systematic        'Lead Zirconium Titanium Oxide (1/0.1/0.9/3)'
+_space_group_IT_number           99
+_symmetry_Int_Tables_number      99
+_symmetry_space_group_name_Hall  'P 4 -2'
+_symmetry_space_group_name_H-M   'P 4 m m'
+_cell_angle_alpha                90.
+_cell_angle_beta                 90.
+_cell_angle_gamma                90.
+_cell_formula_units_Z            1
+_cell_length_a                   3.9272(2)
+_cell_length_b                   3.9272(2)
+_cell_length_c                   4.1319(3)
+_cell_volume                     63.726(7)
+_[local]_cod_data_source_file    PZT_3.cif
+_[local]_cod_data_source_block   PZT
+_[local]_cod_chemical_formula_sum_orig 'O3 Pb1 Ti0.9 Zr0.1'
+_cod_original_cell_volume        63.73
+_cod_database_code               1513334
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 'y, -x, z'
+2 '-y, x, z'
+3 '-y, -x, z'
+4 'y, x, z'
+5 'x, -y, z'
+6 '-x, y, z'
+7 '-x, -y, z'
+8 'x, y, z'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+_atom_site_U_iso_or_equiv
+Pb1 Pb2+ 1 a 0 0 0 1. 0 0.53(2)
+Ti1 Ti4+ 1 b 0.5 0.5 0.5279(24) 0.9 0 0.24(9)
+Zr1 Zr4+ 1 b 0.5 0.5 0.5279(24) 0.1 0 0.24(9)
+O1 O2- 2 c 0.5 0 0.6163(27) 1. 0 1.44(27)
+O2 O2- 1 b 0.5 0.5 0.1288(37) 1. 0 1.44(27)
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+O2- -2
+Pb2+ 2
+Ti4+ 4
+Zr4+ 4
+_journal_paper_doi 10.1023/A:1004778223721
