@@ -1,10 +1,10 @@
-#Crystals
+# Crystals
 ========
 
 Crystal structures of over 500 common materials, elements, oxides, including:
 
 * All elements
-* Common oxides (SiO2, CaO, etc.)
+* Common oxides (SiO<sub>2</sub>, CaO, etc.)
 * Common halides (NaCl, etc.)
 * Ice
 * Zeolites
