@@ -1,5 +1,4 @@
 # Crystals
-========
 
 Crystal structures of over 500 common materials, elements, oxides, including:
 
