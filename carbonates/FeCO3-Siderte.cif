@@ -1,0 +1,118 @@
+# Part of the Crystallography Open Database
+# All data on this site have been placed in the public domain by the
+# contributors.
+#------------------------------------------------------------------------------
+#$Date: 2018-07-06 22:25:45 +0300 (Fri, 06 Jul 2018) $
+#$Revision: 208882 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/5/00/00/5000036.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. 
+#
+data_5000036
+loop_
+_publ_author_name
+'Effenberger, H.'
+'Mereiter, K.'
+'Zemann, J.'
+_publ_section_title
+;
+ Crystal structure refinements of magnesite, calcite, rhodochrosite, siderite,
+ smithonite, and dolomite, with discussion of some aspects of the
+ stereochemistry of calcite type carbonates
+;
+_journal_coden_ASTM              ZEKRDZ
+_journal_name_full
+;
+ Zeitschrift f\"ur Kristallographie, Kristallgeometrie, Kristallphysik,
+ Kristallchemie
+;
+_journal_page_first              233
+_journal_page_last               243
+_journal_paper_doi               10.1524/zkri.1981.156.3-4.233
+_journal_volume                  156
+_journal_year                    1981
+_chemical_formula_sum            'C Fe O3'
+_chemical_name_mineral           Siderite
+_chemical_name_systematic        'Iron carbonate'
+_space_group_IT_number           167
+_symmetry_cell_setting           trigonal
+_symmetry_space_group_name_Hall  '-R 3 2"c'
+_symmetry_space_group_name_H-M   'R -3 c :H'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            6
+_cell_length_a                   4.6916(4)
+_cell_length_b                   4.6916(4)
+_cell_length_c                   15.3796(16)
+_cell_volume                     293.2
+_exptl_crystal_density_meas      3.9
+_cod_depositor_comments
+;
+ Updating bibliography and adding the summary chemical formula.
+
+ Antanas Vaitkus,
+ 2018-07-06
+;
+_cod_original_sg_symbol_H-M      'R -3 c H'
+_cod_database_code               5000036
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-y,x-y,z
+y-x,-x,z
+-y,-x,1/2+z
+x,x-y,1/2+z
+y-x,y,1/2+z
+-x,-y,-z
+y,y-x,-z
+x-y,x,-z
+y,x,1/2-z
+-x,y-x,1/2-z
+x-y,-y,1/2-z
+1/3+x,2/3+y,2/3+z
+2/3+x,1/3+y,1/3+z
+1/3-y,2/3+x-y,2/3+z
+2/3-y,1/3+x-y,1/3+z
+1/3-x+y,2/3-x,2/3+z
+2/3-x+y,1/3-x,1/3+z
+1/3-y,2/3-x,1/6+z
+2/3-y,1/3-x,5/6+z
+1/3+x,2/3+x-y,1/6+z
+2/3+x,1/3+x-y,5/6+z
+1/3-x+y,2/3+y,1/6+z
+2/3-x+y,1/3+y,5/6+z
+1/3-x,2/3-y,2/3-z
+2/3-x,1/3-y,1/3-z
+1/3+y,2/3-x+y,2/3-z
+2/3+y,1/3-x+y,1/3-z
+1/3+x-y,2/3+x,2/3-z
+2/3+x-y,1/3+x,1/3-z
+1/3+y,2/3+x,1/6-z
+2/3+y,1/3+x,5/6-z
+1/3-x,2/3-x+y,1/6-z
+2/3-x,1/3-x+y,5/6-z
+1/3+x-y,2/3-y,1/6-z
+2/3+x-y,1/3-y,5/6-z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+_atom_site_calc_flag
+Fe1 Fe2+ 6 b 0. 0. 0. 1. 0 d
+C1 C4+ 6 a 0. 0. 0.25 1. 0 d
+O1 O2- 18 e 0.27427(10) 0. 0.25 1. 0 d
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Fe2+ 2.000
+C4+ 4.000
+O2- -2.000
