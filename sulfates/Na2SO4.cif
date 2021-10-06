@@ -1,0 +1,72 @@
+#------------------------------------------------------------------------------
+#$Date: 2015-01-27 21:58:39 +0200 (Tue, 27 Jan 2015) $
+#$Revision: 130149 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/1/01/05/1010522.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1010522
+loop_
+_publ_author_name
+'Frevel, L K'
+_publ_section_title              'The Crystal Structure of Sodium Sulfate III'
+_journal_coden_ASTM              JCPSA6
+_journal_name_full               'Journal of Chemical Physics'
+_journal_page_first              290
+_journal_page_last               290
+_journal_volume                  8
+_journal_year                    1940
+_chemical_formula_structural     'Na2 S O4'
+_chemical_formula_sum            'Na2 O4 S'
+_chemical_name_systematic        'Sodium sulfate - III'
+_space_group_IT_number           52
+_symmetry_cell_setting           orthorhombic
+_symmetry_Int_Tables_number      52
+_symmetry_space_group_name_Hall  '-P 2n 2b'
+_symmetry_space_group_name_H-M   'P b n n'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   5.59(2)
+_cell_length_b                   8.93(2)
+_cell_length_c                   6.98(2)
+_cell_volume                     348.4
+_cod_database_code               1010522
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+x,1/2-y,-z
+1/2-x,y,1/2-z
+1/2-x,1/2-y,1/2+z
+-x,-y,-z
+-x,1/2+y,z
+1/2+x,-y,1/2+z
+1/2+x,1/2+y,1/2-z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+_atom_site_calc_flag
+S1 S6+ 4 d 0.25 0.097(1) 0.25 1. 0 d
+Na1 Na1+ 4 d 0.25 0.435(10) 0.25 1. 0 d
+Na2 Na1+ 4 c -0.25 0.25 0. 1. 0 d
+O1 O2- 8 e 0.030(2) 0.197(3) 0.25 1. 0 d
+O2 O2- 8 e 0.25 0. 0.072(2) 1. 0 d
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+S6+ 6.000
+Na1+ 1.000
+O2- -2.000

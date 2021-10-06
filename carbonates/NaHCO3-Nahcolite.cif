@@ -1,0 +1,78 @@
+#------------------------------------------------------------------------------
+#$Date: 2018-01-15 12:00:33 +0200 (Mon, 15 Jan 2018) $
+#$Revision: 205222 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/1/01/10/1011016.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1011016
+loop_
+_publ_author_name
+'Zachariasen, W. H.'
+_publ_section_title
+;
+The Crystal Lattice of Sodium Bicarbonate, Na H C O3
+;
+_journal_coden_ASTM              JCPSA6
+_journal_name_full               'Journal of Chemical Physics'
+_journal_page_first              634
+_journal_page_last               639
+_journal_paper_doi               10.1063/1.1749342
+_journal_volume                  1
+_journal_year                    1933
+_chemical_compound_source        'synthetic by evaporation'
+_chemical_formula_structural     'Na (H C O3)'
+_chemical_formula_sum            'C H Na O3'
+_chemical_name_mineral           Nahcolite
+_chemical_name_systematic        'Sodium hydrogen carbonate'
+_space_group_crystal_system      monoclinic
+_space_group_IT_number           14
+_space_group_name_Hall           '-P 2yn'
+_space_group_name_H-M_alt        'P 1 21/n 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 93.32
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   7.51(4)
+_cell_length_b                   9.70(4)
+_cell_length_c                   3.53(3)
+_cell_volume                     256.7
+_exptl_crystal_density_meas      2.21(1)
+_cod_original_formula_sum        'H Na O3'
+_cod_database_code               1011016
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 x,y,z
+2 1/2+x,1/2-y,1/2+z
+3 -x,-y,-z
+4 1/2-x,1/2+y,1/2-z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+_atom_site_calc_flag
+Na1 Na1+ 4 e 0.278 0. 0.708 1. 0 d
+C1 C4+ 4 e 0.069 0.236 0.314 1. 0 d
+O1 O2- 4 e 0.069 0.367 0.314 1. 0 d
+O2 O2- 4 e 0.2 0.169 0.183 1. 0 d
+O3 O2- 4 e 0.939 0.169 0.444 1. 0 d
+H1 H1+ 4 e 0.319 0.25 0.064 1. 0 d
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Na1+ 1.000
+C4+ 4.000
+O2- -2.000
+H1+ 1.000
