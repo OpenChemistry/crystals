@@ -1,0 +1,205 @@
+#------------------------------------------------------------------------------
+#$Date: 2017-10-13 03:08:28 +0300 (Fri, 13 Oct 2017) $
+#$Revision: 201955 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/00/56/2005681.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2005681
+loop_
+_publ_author_name
+'Kemnitz, E.'
+'Werner, C.'
+'Trojanov, S.'
+_publ_section_title
+;
+ Reinvestigation of Crystalline Sulfuric Acid and Oxonium
+ Hydrogensulfate
+;
+_journal_issue                   11
+_journal_name_full               'Acta Crystallographica Section C'
+_journal_page_first              2665
+_journal_page_last               2668
+_journal_paper_doi               10.1107/S0108270196006749
+_journal_volume                  52
+_journal_year                    1996
+_chemical_formula_iupac          '(H3 O)(H S O4)'
+_chemical_formula_structural     '(H3 O)(H S O4)'
+_chemical_formula_sum            'H4 O5 S'
+_chemical_formula_weight         116.09
+_chemical_melting_point          8.5
+_chemical_name_common            'sulfuric acid monohydrate'
+_chemical_name_systematic        'oxonium hydrogen sulfate'
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_audit_creation_method           SHELXL
+_cell_angle_alpha                90.
+_cell_angle_beta                 106.18(3)
+_cell_angle_gamma                90.
+_cell_formula_units_Z            4
+_cell_length_a                   7.0770(10)
+_cell_length_b                   6.9550(10)
+_cell_length_c                   8.150(2)
+_cell_measurement_reflns_used    24
+_cell_measurement_temperature    160(2)
+_cell_measurement_theta_max      12.5
+_cell_measurement_theta_min      9
+_cell_volume                     385.26(14)
+_computing_structure_refinement  SHELXL-93
+_computing_structure_solution    'SHELXS-86 (Sheldrick, 1985)'
+_diffrn_ambient_temperature      160(2)
+_diffrn_measurement_device       'Stoe-STADI four-circle'
+_diffrn_measurement_method       \q-2\q
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_reflns_av_R_equivalents  0.0000
+_diffrn_reflns_av_sigmaI/netI    0.0091
+_diffrn_reflns_limit_h_max       12
+_diffrn_reflns_limit_h_min       -12
+_diffrn_reflns_limit_k_max       12
+_diffrn_reflns_limit_k_min       0
+_diffrn_reflns_limit_l_max       14
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            2384
+_diffrn_reflns_theta_max         40
+_diffrn_reflns_theta_min         3.00
+_diffrn_standards_decay_%        6.2
+_diffrn_standards_interval_time  150
+_diffrn_standards_number         3
+_exptl_absorpt_coefficient_mu    0.724
+_exptl_absorpt_correction_type   none
+_exptl_crystal_colour            colourless
+_exptl_crystal_density_diffrn    2.002
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       Irregular
+_exptl_crystal_F_000             240
+_exptl_crystal_size_max          1.0
+_exptl_crystal_size_mid          0.8
+_exptl_crystal_size_min          0.5
+_refine_diff_density_max         1.097
+_refine_diff_density_min         -1.248
+_refine_ls_extinction_coef       3.25(9)
+_refine_ls_extinction_method     SHELXL93
+_refine_ls_goodness_of_fit_all   1.126
+_refine_ls_goodness_of_fit_obs   1.145
+_refine_ls_hydrogen_treatment    'refall isotropically'
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     72
+_refine_ls_number_reflns         2364
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      1.394
+_refine_ls_restrained_S_obs      1.145
+_refine_ls_R_factor_all          0.0374
+_refine_ls_R_factor_obs          0.0332
+_refine_ls_shift/esd_max         0.073
+_refine_ls_shift/esd_mean        0.012
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_scheme
+;
+calc w = 1/[\s^2^(F~o~^2^) + (0.0604P)^2^ + 0.0491P]
+where P = (F~o~^2^ + 2F~c~^2^)/3
+;
+_refine_ls_wR_factor_all         0.1075
+_refine_ls_wR_factor_obs         0.0858
+_reflns_number_observed          2224
+_reflns_number_total             2384
+_reflns_observed_criterion       >2sigma(I)
+_cod_data_source_file            sk1004.cif
+_cod_data_source_block           II
+_cod_original_cell_volume        385.26(12)
+_cod_original_sg_symbol_H-M      'P 21/c'
+_cod_database_code               2005681
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, y+1/2, -z+1/2'
+'-x, -y, -z'
+'x, -y-1/2, z-1/2'
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+S1 0.01426(10) 0.00903(9) 0.00854(9) -0.00009(4) 0.00126(5) 0.00023(3)
+O1 0.0219(2) 0.0125(2) 0.0088(2) -0.00061(15) 0.00135(14) 0.00179(13)
+O2 0.0188(2) 0.0113(2) 0.0185(2) 0.0032(2) 0.0009(2) -0.0023(2)
+O3 0.0216(2) 0.0147(2) 0.0114(2) -0.0005(2) 0.00259(14) -0.00453(14)
+O4 0.0162(2) 0.0221(3) 0.0164(2) -0.0030(2) 0.0022(2) 0.0068(2)
+O5 0.0181(2) 0.0122(2) 0.0153(2) -0.00073(15) 0.0017(2) 0.00349(15)
+loop_
+_atom_site_label
+_atom_site_occupancy
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+_atom_site_calc_flag
+_atom_site_type_symbol
+S1 1 0.75032(2) 0.15816(2) 0.04183(2) 0.01100(8) Uani d S
+O1 1 0.82689(8) 0.06899(8) 0.21041(6) 0.01500(10) Uani d O
+O2 1 0.61382(8) 0.31432(8) 0.04153(8) 0.01707(11) Uani d O
+O3 1 0.66823(8) 0.01651(8) -0.08874(6) 0.01629(11) Uani d O
+O4 1 0.93770(8) 0.24719(9) 0.00759(7) 0.01874(12) Uani d O
+O5 1 0.72575(8) 0.69970(8) 0.17478(7) 0.01579(11) Uani d O
+H2 1 0.6083(27) 0.7074(31) 0.1053(28) 0.036(5) Uiso d H
+H1 1 0.8975(25) 0.3144(25) -0.0780(24) 0.024(4) Uiso d H
+H3 1 0.7124(26) 0.6254(32) 0.2663(24) 0.034(5) Uiso d H
+H4 1 0.7562(25) 0.8179(28) 0.1927(24) 0.028(4) Uiso d H
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+O O 0.0106 0.0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+H H 0.0000 0.0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+S S 0.1246 0.1234 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_publ_flag
+O3 S1 O2 112.14(4) no
+O3 S1 O1 111.63(4) no
+O2 S1 O1 112.93(4) no
+O3 S1 O4 109.03(4) no
+O2 S1 O4 107.54(4) no
+O1 S1 O4 103.02(4) no
+S1 O4 H1 105.5(13) no
+H2 O5 H3 105.3(18) no
+H2 O5 H4 101.7(17) no
+H3 O5 H4 118.3(18) no
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_publ_flag
+S1 O3 1.4478(6) no
+S1 O2 1.4531(6) no
+S1 O1 1.4666(6) no
+S1 O4 1.5576(6) no
+O4 H1 0.82(2) no
+O5 H2 0.87(2) no
+O5 H3 0.93(2) no
+O5 H4 0.85(2) no
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 ChemSpider 10662067
