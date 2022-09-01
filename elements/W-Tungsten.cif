@@ -1,10 +1,7 @@
-# Part of the Crystallography Open Database
-# All data on this site have been placed in the public domain by the
-# contributors.
 #------------------------------------------------------------------------------
-#$Date: 2010-06-10 15:11:07 +0000 (Thu, 10 Jun 2010) $
-#$Revision: 1210 $
-#$URL: svn://cod.ibt.lt/cod/cif/9/9008583.cif $
+#$Date: 2021-04-22 13:37:23 +0300 (Thu, 22 Apr 2021) $
+#$Revision: 264408 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/24/9012433.cif $
 #------------------------------------------------------------------------------
 #
 # This file is available in the Crystallography Open Database (COD),
@@ -16,90 +13,154 @@
 # proper attribution is given to the journal article from which the
 # data were obtained.
 #
-data_9008583
+data_9012433
 loop_
 _publ_author_name
-'Wyckoff, R. W. G.'
+'Jette, E. R.'
+'Foote, F.'
 _publ_section_title
 ;
- Second edition. Interscience Publishers, New York, New York
- Sample is formed when certain tungstates are electrolyzed
+ Precision determination of lattice constants
+ Locality: synthetic
+ Sample: at T = 25 C
+ Note: sample 1
 ;
-_journal_name_full               'Crystal Structures'
-_journal_page_first              7
-_journal_page_last               83
-_journal_volume                  1
-_journal_year                    1963
+_journal_name_full               'Journal of Chemical Physics'
+_journal_page_first              605
+_journal_page_last               616
+_journal_paper_doi               10.1063/1.1749562
+_journal_volume                  3
+_journal_year                    1935
 _chemical_formula_sum            W
 _chemical_name_mineral           Tungsten
-_space_group_IT_number           223
-_symmetry_space_group_name_Hall  '-P 4n 2 3'
-_symmetry_space_group_name_H-M   'P m -3 n'
+_space_group_IT_number           229
+_symmetry_space_group_name_Hall  '-I 4 2 3'
+_symmetry_space_group_name_H-M   'I m -3 m'
 _cell_angle_alpha                90
 _cell_angle_beta                 90
 _cell_angle_gamma                90
-_cell_length_a                   5.083
-_cell_length_b                   5.083
-_cell_length_c                   5.083
-_cell_volume                     131.329
-_exptl_crystal_density_diffrn    18.597
-_[local]_cod_cif_authors_sg_H-M  'P m 3 n'
-_cod_database_code               9008583
-_amcsd_database_code             AMCSD#0010914
+_cell_formula_units_Z            2
+_cell_length_a                   3.1583
+_cell_length_b                   3.1583
+_cell_length_c                   3.1583
+_cell_volume                     31.504
+_diffrn_ambient_temperature      298.15
+_exptl_crystal_density_diffrn    19.381
+_cod_depositor_comments
+;
+ Added the _cell_formula_units_Z data item.
+
+ Antanas Vaitkus,
+ 2021-04-22
+;
+_cod_original_sg_symbol_H-M      'I m 3 m'
+_cod_database_code               9012433
 loop_
 _symmetry_equiv_pos_as_xyz
 x,y,z
+1/2+x,1/2+y,1/2+z
 z,-x,y
+1/2+z,1/2-x,1/2+y
 -y,z,-x
+1/2-y,1/2+z,1/2-x
 x,-y,z
+1/2+x,1/2-y,1/2+z
 -z,x,-y
+1/2-z,1/2+x,1/2-y
 y,-z,x
+1/2+y,1/2-z,1/2+x
 -x,y,-z
+1/2-x,1/2+y,1/2-z
+x,-z,-y
 1/2+x,1/2-z,1/2-y
+-z,y,x
 1/2-z,1/2+y,1/2+x
+y,-x,-z
 1/2+y,1/2-x,1/2-z
+-x,z,y
 1/2-x,1/2+z,1/2+y
+z,-y,-x
 1/2+z,1/2-y,1/2-x
+-y,x,z
 1/2-y,1/2+x,1/2+z
+x,z,y
 1/2+x,1/2+z,1/2+y
+-z,-y,-x
 1/2-z,1/2-y,1/2-x
+y,x,z
 1/2+y,1/2+x,1/2+z
+-x,-z,-y
 1/2-x,1/2-z,1/2-y
+z,y,x
 1/2+z,1/2+y,1/2+x
+-y,-x,-z
 1/2-y,1/2-x,1/2-z
 z,x,-y
+1/2+z,1/2+x,1/2-y
 -y,-z,x
+1/2-y,1/2-z,1/2+x
 x,y,-z
+1/2+x,1/2+y,1/2-z
 -z,-x,y
+1/2-z,1/2-x,1/2+y
 y,z,-x
+1/2+y,1/2+z,1/2-x
 -x,-y,z
+1/2-x,1/2-y,1/2+z
 -z,x,y
+1/2-z,1/2+x,1/2+y
 y,-z,-x
+1/2+y,1/2-z,1/2-x
 -x,y,z
+1/2-x,1/2+y,1/2+z
 z,-x,-y
+1/2+z,1/2-x,1/2-y
 -y,z,x
+1/2-y,1/2+z,1/2+x
 x,-y,-z
+1/2+x,1/2-y,1/2-z
+-x,z,-y
 1/2-x,1/2+z,1/2-y
+z,-y,x
 1/2+z,1/2-y,1/2+x
+-y,x,-z
 1/2-y,1/2+x,1/2-z
+x,-z,y
 1/2+x,1/2-z,1/2+y
+-z,y,-x
 1/2-z,1/2+y,1/2-x
+y,-x,z
 1/2+y,1/2-x,1/2+z
+-x,-z,y
 1/2-x,1/2-z,1/2+y
+z,y,-x
 1/2+z,1/2+y,1/2-x
+-y,-x,z
 1/2-y,1/2-x,1/2+z
+x,z,-y
 1/2+x,1/2+z,1/2-y
+-z,-y,x
 1/2-z,1/2-y,1/2+x
+y,x,-z
 1/2+y,1/2+x,1/2-z
 -z,-x,-y
+1/2-z,1/2-x,1/2-y
 y,z,x
+1/2+y,1/2+z,1/2+x
 -x,-y,-z
+1/2-x,1/2-y,1/2-z
 z,x,y
+1/2+z,1/2+x,1/2+y
 -y,-z,-x
+1/2-y,1/2-z,1/2-x
 loop_
 _atom_site_label
 _atom_site_fract_x
 _atom_site_fract_y
 _atom_site_fract_z
-W1 0.00000 0.00000 0.00000
-W2 0.00000 0.50000 0.25000
+W 0.00000 0.00000 0.00000
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 ChemSpider 22403
