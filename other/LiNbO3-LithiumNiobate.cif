@@ -1,10 +1,7 @@
-# Part of the Crystallography Open Database
-# All data on this site have been placed in the public domain by the
-# contributors.
 #------------------------------------------------------------------------------
-#$Date: 2010-01-30 13:59:17 +0000 (Sat, 30 Jan 2010) $
-#$Revision: 966 $
-#$URL: svn://cod.ibt.lt/cod/cif/2/2101182.cif $
+#$Date: 2017-07-18 20:06:41 +0300 (Tue, 18 Jul 2017) $
+#$Revision: 198788 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/10/11/2101182.cif $
 #------------------------------------------------------------------------------
 #
 # This file is available in the Crystallography Open Database (COD),
@@ -29,11 +26,14 @@ _journal_issue                   4
 _journal_name_full               'Acta Crystallographica Section B'
 _journal_page_first              405
 _journal_page_last               414
+_journal_paper_doi               10.1107/S0108768193012820
 _journal_volume                  50
 _journal_year                    1994
 _chemical_formula_sum            'Li Nb O3'
-_symmetry_cell_setting           trigonal
-_symmetry_space_group_name_H-M   'R 3 c {rhombohedral axes}'
+_space_group_crystal_system      trigonal
+_space_group_IT_number           161
+_space_group_name_Hall           'R 3 -2"c'
+_space_group_name_H-M_alt        'R 3 c :H'
 _cell_angle_alpha                90
 _cell_angle_beta                 90
 _cell_angle_gamma                120
@@ -41,7 +41,46 @@ _cell_formula_units_Z            6
 _cell_length_a                   5.2719(8)
 _cell_length_b                   5.2719(8)
 _cell_length_c                   13.8601(8)
-_[local]_cod_data_source_file    se0126.cif
+_diffrn_ambient_temperature      1350
+_diffrn_radiation_type           neutron
+_cod_data_source_file            se0126.cif
+_cod_depositor_comments
+;
+ Adding the _diffrn_ambient_temperature, _cod_struct_determination_method and
+ _diffrn_radiation_type data items after consulting the original publication.
+
+ Antanas Vaitkus,
+ 2017-07-18
+
+ Adding symmetry operations and updating related symmetry information.
+
+ Antanas Vaitkus,
+ 2017-07-18
+;
+_cod_original_sg_symbol_H-M      'R 3 c {rhombohedral axes}'
+_cod_struct_determination_method 'powder diffraction'
+_cod_database_code               2101182
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 x,y,z
+2 -y,x-y,z
+3 -x+y,-x,z
+4 -y,-x,z+1/2
+5 x,x-y,z+1/2
+6 -x+y,y,z+1/2
+7 x+2/3,y+1/3,z+1/3
+8 -y+2/3,x-y+1/3,z+1/3
+9 -x+y+2/3,-x+1/3,z+1/3
+10 -y+2/3,-x+1/3,z+5/6
+11 x+2/3,x-y+1/3,z+5/6
+12 -x+y+2/3,y+1/3,z+5/6
+13 x+1/3,y+2/3,z+2/3
+14 -y+1/3,x-y+2/3,z+2/3
+15 -x+y+1/3,-x+2/3,z+2/3
+16 -y+1/3,-x+2/3,z+1/6
+17 x+1/3,x-y+2/3,z+1/6
+18 -x+y+1/3,y+2/3,z+1/6
 loop_
 _atom_site_label
 _atom_site_fract_x
@@ -50,4 +89,3 @@ _atom_site_fract_z
 Li .0000 .0000 .2762(13)
 Nb .0000 .0000 .0093(7)
 O(1) .0569(9) .3297(15) .0833
-_cod_database_code 2101182
