@@ -1,11 +1,15 @@
-# Part of the Crystallography Open Database
-# All data on this site have been placed in the public domain by the
-# contributors.
+#------------------------------------------------------------------------------
+#$Date: 2017-10-13 15:23:06 +0300 (Fri, 13 Oct 2017) $
+#$Revision: 201983 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/5/91/01/5910133.cif $
+#------------------------------------------------------------------------------
+#
 # This file is available in the Crystallography Open Database (COD),
-# http://www.crystallography.net/.
+# http://www.crystallography.net/
 #
 # All data on this site have been placed in the public domain by the
 # contributors.
+#
 data_5910133
 loop_
 _publ_author_name
@@ -36,13 +40,25 @@ Corporation, INC,Camden,N. J. in 1935 & http://database.iem.ac.ru/mincryst
 ;
 _audit_update_record
 'created by Girish Upreti, Portland State University'
-_cell_angle_alpha                4.583
-_cell_angle_beta                 4.583
-_cell_angle_gamma                4.936
-_cell_length_a                   90
-_cell_length_b                   90
-_cell_length_c                   90
-_cell_volume                     4225.771
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_length_a                   4.583
+_cell_length_b                   4.583
+_cell_length_c                   4.936
+_cell_volume                     103.675
+_cod_depositor_comments
+;
+    Swapping the apparently mixed up _cell_length_... and
+    _cell_angle_... tag groups, and recalculating the cell volume. In
+    the old file revision the cell length and angle tags were most
+    probably mixed upt, and the volume was calculated using these
+    confused values. The new data make much more sense and are
+    compatible with other In data.
+
+    Saulius Gra\<zulis
+    2011.11.02
+;
 _cod_database_code               5910133
 loop_
 _atom_site_fract_x
@@ -53,3 +69,8 @@ _atom_site_label
 0.500000 0.500000 0.000000 In2
 0.500000 0.000000 0.500000 In3
 0.000000 0.500000 0.500000 In4
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 ChemSpider 4514408
