@@ -1,7 +1,7 @@
 #------------------------------------------------------------------------------
-#$Date: 2010-01-30 13:59:17 +0000 (Sat, 30 Jan 2010) $
-#$Revision: 966 $
-#$URL: svn://cod.ibt.lt/cod/cif/1/1010563.cif $
+#$Date: 2017-10-18 10:07:10 +0300 (Wed, 18 Oct 2017) $
+#$Revision: 202104 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/1/01/05/1010563.cif $
 #------------------------------------------------------------------------------
 #
 # This file is available in the Crystallography Open Database (COD),
@@ -11,34 +11,54 @@
 # contributors.
 #
 data_1010563
-_chemical_name_systematic          'Aluminium chloride'
-_chemical_formula_structural       'Al Cl3'
-_chemical_formula_sum              'Al Cl3'
-_publ_section_title                'Zur Struktur Al Cl~3~'
 loop_
-_publ_author_name                  'Laschkarew, W E'
+_publ_author_name
+'Laschkarew, W E'
+_publ_section_title              'Zur Struktur Al Cl~3~'
+_journal_coden_ASTM              ZAACAB
 _journal_name_full
 ;
 Zeitschrift fuer Anorganische und Allgemeine Chemie
 ;
-_journal_coden_ASTM                ZAACAB
-_journal_volume                    193
-_journal_year                      1930
-_journal_page_first                270
-_journal_page_last                 276
-_cell_length_a                     3.475(1)
-_cell_length_b                     3.475(1)
-_cell_length_c                     8.51
-_cell_angle_alpha                  90
-_cell_angle_beta                   90
-_cell_angle_gamma                  120
-_cell_volume                       89.0
-_cell_formula_units_Z              1
-_exptl_crystal_density_meas        2.4
+_journal_page_first              270
+_journal_page_last               276
+_journal_paper_doi               10.1002/zaac.19301930123
+_journal_volume                  193
+_journal_year                    1930
+_chemical_formula_structural     'Al Cl3'
+_chemical_formula_sum            'Al Cl3'
+_chemical_name_systematic        'Aluminium chloride'
+_space_group_IT_number           1
+_symmetry_space_group_name_Hall  'P 1'
+_symmetry_space_group_name_H-M   'P 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                120
+_cell_formula_units_Z            1
+_cell_length_a                   3.475(1)
+_cell_length_b                   3.475(1)
+_cell_length_c                   8.51
+_cell_volume                     89.0
+_diffrn_radiation_wavelength     0.710
+_exptl_crystal_density_meas      2.4
+_cod_database_code               1010563
+_cod_depositor_comments
+;
+  Adding coordinates from the original publication. As coordinates for
+  all the atoms are given in the paper, 'P 1' symmetry is assumed.
+
+  Andrius Merkys
+  2017-10-18
+;
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
 loop_
 _atom_site_label
 _atom_site_fract_x
 _atom_site_fract_y
 _atom_site_fract_z
-? ? ? ?
-_cod_database_code 1010563
+Cl1 0 0 0
+Cl2 0.333333333333333 0.666666666666667 0.333333333333333
+Cl3 0.666666666666667 0.333333333333333 0.666666666666667
+Al 0 0 0.5

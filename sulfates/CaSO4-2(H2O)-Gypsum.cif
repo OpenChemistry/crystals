@@ -1,10 +1,7 @@
-# Part of the Crystallography Open Database
-# All data on this site have been placed in the public domain by the
-# contributors.
 #------------------------------------------------------------------------------
-#$Date: 2011-01-02 20:00:31 +0000 (Sun, 02 Jan 2011) $
-#$Revision: 5310 $
-#$URL: svn://cod.ibt.lt/cod/cif/2/2300259.cif $
+#$Date: 2016-02-21 11:56:54 +0200 (Sun, 21 Feb 2016) $
+#$Revision: 176809 $
+#$URL: svn://www.crystallography.net/cod/cif/2/30/02/2300259.cif $
 #------------------------------------------------------------------------------
 #
 # This file is available in the Crystallography Open Database (COD),
@@ -30,6 +27,7 @@ _journal_issue                   6
 _journal_name_full               'Journal of Applied Crystallography'
 _journal_page_first              1176
 _journal_page_last               1188
+_journal_paper_doi               10.1107/S0021889809043210
 _journal_volume                  42
 _journal_year                    2009
 _chemical_formula_sum            'Ca H4 O6 S'
@@ -46,11 +44,11 @@ _cell_formula_units_Z            4
 _cell_length_a                   5.68021(13)
 _cell_length_b                   15.2139(4)
 _cell_length_c                   6.53032(15)
-_cell_volume                     496.025(22)
+_cell_volume                     496.03(2)
 _pd_block_id                     2009-10-13T15:29|I2A_phase1|Paul_Henry||
 _pd_phase_name                   gypsum
-_[local]_cod_data_source_file    cg5117.cif
-_[local]_cod_data_source_block   I2A_phase_1
+_cod_data_source_file            cg5117.cif
+_cod_data_source_block           I2A_phase_1
 _cod_depositor_comments
 ;
 The following automatic conversions were performed:
@@ -65,7 +63,22 @@ times).
 
 Automatic conversion script
 Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+
+The following automatic conversions were performed:
+
+'_geom_bond_publ_flag' value 'N' changed to 'n' according to
+/home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary named
+'cif_core.dic' version 2.4.1 from 2010-06-29 (40
+times).
+
+'_geom_angle_publ_flag' value 'N' changed to 'n' according
+to /home/saulius/struct/CIF-dictionaries/cif_core.dic dictionary
+named 'cif_core.dic' version 2.4.1 from 2010-06-29 (67 times).
+
+Automatic conversion script
+Id: cif_fix_values 1715 2011-07-08 13:25:40Z adriana 
 ;
+_cod_original_cell_volume        496.025(22)
 _cod_database_code               2300259
 loop_
 _symmetry_equiv_pos_site_id

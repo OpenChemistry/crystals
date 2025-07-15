@@ -1,11 +1,15 @@
-# Part of the Crystallography Open Database
-# All data on this site have been placed in the public domain by the
-# contributors.
+#------------------------------------------------------------------------------
+#$Date: 2016-03-02 09:51:31 +0200 (Wed, 02 Mar 2016) $
+#$Revision: 177123 $
+#$URL: svn://www.crystallography.net/cod/cif/5/91/00/5910083.cif $
+#------------------------------------------------------------------------------
+#
 # This file is available in the Crystallography Open Database (COD),
-# http://www.crystallography.net/.
+# http://www.crystallography.net/
 #
 # All data on this site have been placed in the public domain by the
 # contributors.
+#
 data_5910083
 loop_
 _publ_author_name

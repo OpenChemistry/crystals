@@ -1,7 +1,7 @@
 #------------------------------------------------------------------------------
-#$Date: 2010-01-30 13:59:17 +0000 (Sat, 30 Jan 2010) $
-#$Revision: 966 $
-#$URL: svn://cod.ibt.lt/cod/cif/5/5000115.cif $
+#$Date: 2017-10-15 03:23:08 +0300 (Sun, 15 Oct 2017) $
+#$Revision: 202022 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/5/00/01/5000115.cif $
 #------------------------------------------------------------------------------
 #
 # This file is available in the Crystallography Open Database (COD),
@@ -11,69 +11,69 @@
 # contributors.
 #
 data_5000115
-_chemical_name_systematic          'Iron persulfide'
-_chemical_name_mineral             'Pyrite'
-_chemical_formula_structural       'Fe S2'
-_chemical_formula_sum              'Fe S2'
+loop_
+_publ_author_name
+'Brostigen, G'
+'Kjekshus, A'
 _publ_section_title
 ;
 Redetermined crystal structure of Fe S2 (pyrite)
 ;
-loop_
-_publ_author_name
-  'Brostigen, G'
-  'Kjekshus, A'
 _journal_name_full
 ;
 Acta Chemica Scandinavica (1-27,1973-42,1988)
 ;
-_journal_volume                    23
-_journal_year                      1969
-_journal_page_first                2186
-_journal_page_last                 2188
-_cell_length_a                     5.4179(11)
-_cell_length_b                     5.4179(11)
-_cell_length_c                     5.4179(11)
-_cell_angle_alpha                  90
-_cell_angle_beta                   90
-_cell_angle_gamma                  90
-_cell_volume                       159.0
-_cell_formula_units_Z              4
-_exptl_crystal_density_meas        5.02
-_symmetry_space_group_name_H-M     'P a -3'
-_symmetry_Int_Tables_number        205
-_symmetry_cell_setting             cubic
+_journal_page_first              2186
+_journal_page_last               2188
+_journal_paper_doi               10.3891/acta.chem.scand.23-2186
+_journal_volume                  23
+_journal_year                    1969
+_chemical_formula_structural     'Fe S2'
+_chemical_formula_sum            'Fe S2'
+_chemical_name_mineral           Pyrite
+_chemical_name_systematic        'Iron persulfide'
+_space_group_IT_number           205
+_symmetry_cell_setting           cubic
+_symmetry_Int_Tables_number      205
+_symmetry_space_group_name_Hall  '-P 2ac 2ab 3'
+_symmetry_space_group_name_H-M   'P a -3'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   5.4179(11)
+_cell_length_b                   5.4179(11)
+_cell_length_c                   5.4179(11)
+_cell_volume                     159.0
+_exptl_crystal_density_meas      5.02
+_refine_ls_R_factor_all          0.075
+_cod_database_code               5000115
 loop_
 _symmetry_equiv_pos_as_xyz
-  'x,y,z'
-  '1/2+x,1/2-y,-z'
-  '-x,1/2+y,1/2-z'
-  '1/2-x,-y,1/2+z'
-  'y,z,x'
-  '1/2-y,-z,1/2+x'
-  '1/2+y,1/2-z,-x'
-  '-y,1/2+z,1/2-x'
-  'z,x,y'
-  '-z,1/2+x,1/2-y'
-  '1/2-z,-x,1/2+y'
-  '1/2+z,1/2-x,-y'
-  '-x,-y,-z'
-  '1/2-x,1/2+y,z'
-  'x,1/2-y,1/2+z'
-  '1/2+x,y,1/2-z'
-  '-y,-z,-x'
-  '1/2+y,z,1/2-x'
-  '1/2-y,1/2+z,x'
-  'y,1/2-z,1/2+x'
-  '-z,-x,-y'
-  'z,1/2-x,1/2+y'
-  '1/2+z,x,1/2-y'
-  '1/2-z,1/2+x,y'
-loop_
-_atom_type_symbol
-_atom_type_oxidation_number
-  Fe2+   2.000
-  S1-   -1.000
+x,y,z
+1/2+x,1/2-y,-z
+-x,1/2+y,1/2-z
+1/2-x,-y,1/2+z
+y,z,x
+1/2-y,-z,1/2+x
+1/2+y,1/2-z,-x
+-y,1/2+z,1/2-x
+z,x,y
+-z,1/2+x,1/2-y
+1/2-z,-x,1/2+y
+1/2+z,1/2-x,-y
+-x,-y,-z
+1/2-x,1/2+y,z
+x,1/2-y,1/2+z
+1/2+x,y,1/2-z
+-y,-z,-x
+1/2+y,z,1/2-x
+1/2-y,1/2+z,x
+y,1/2-z,1/2+x
+-z,-x,-y
+z,1/2-x,1/2+y
+1/2+z,x,1/2-y
+1/2-z,1/2+x,y
 loop_
 _atom_site_label
 _atom_site_type_symbol
@@ -85,7 +85,22 @@ _atom_site_fract_z
 _atom_site_occupancy
 _atom_site_attached_hydrogens
 _atom_site_calc_flag
-  Fe1   Fe2+   4 a 0. 0. 0. 1.  0 d
-  S1    S1-    8 c 0.3840(5) 0.3840(5) 0.3840(5) 1.  0 d
-_refine_ls_R_factor_all            0.075
-_cod_database_code 5000115
+Fe1 Fe2+ 4 a 0. 0. 0. 1. 0 d
+S1 S1- 8 c 0.3840(5) 0.3840(5) 0.3840(5) 1. 0 d
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Fe2+ 2.000
+S1- -1.000
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 MPOD 1000128
+2 MPOD 1000166
+3 MPOD 1000231
+4 MPOD 1000252
+5 MPOD 1000263
+6 MPOD 1000264
+7 MPOD 1000265
+8 MPOD 1000266

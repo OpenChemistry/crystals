@@ -1,10 +1,7 @@
-# Part of the Crystallography Open Database
-# All data on this site have been placed in the public domain by the
-# contributors.
 #------------------------------------------------------------------------------
-#$Date: 2010-06-10 15:11:07 +0000 (Thu, 10 Jun 2010) $
-#$Revision: 1210 $
-#$URL: svn://cod.ibt.lt/cod/cif/9/9005025.cif $
+#$Date: 2024-04-25 17:59:02 +0300 (Thu, 25 Apr 2024) $
+#$Revision: 291351 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/50/9005025.cif $
 #------------------------------------------------------------------------------
 #
 # This file is available in the Crystallography Open Database (COD),
@@ -28,6 +25,7 @@ _publ_section_title
 _journal_name_full               'European Journal of Mineralogy'
 _journal_page_first              63
 _journal_page_last               77
+_journal_paper_doi               10.1127/ejm/2/1/0063
 _journal_volume                  2
 _journal_year                    1990
 _chemical_formula_sum            'O2 Si'
@@ -39,16 +37,17 @@ _cell_angle_alpha                90
 _cell_angle_beta                 90
 _cell_angle_gamma                120
 _cell_length_a                   4.9965
+_cell_formula_units_Z            3
 _cell_length_b                   4.9965
 _cell_length_c                   5.4570
 _cell_volume                     117.982
+_database_code_amcsd             0006370
 _diffrn_ambient_temperature      848
 _exptl_crystal_density_diffrn    2.537
-_[local]_cod_chemical_formula_sum_orig 'Si O2'
+_cod_original_formula_sum        'Si O2'
 _cod_database_code               9005025
-_amcsd_database_code             AMCSD#0006312
 loop_
-_symmetry_equiv_pos_as_xyz
+_space_group_symop_operation_xyz
 x,y,z
 x,x-y,1/3-z
 x-y,x,1/3+z
@@ -78,3 +77,8 @@ _atom_site_fract_y
 _atom_site_fract_z
 Si 0.50000 0.00000 0.00000
 O 0.41520 0.20760 0.16667
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0006370

@@ -1,10 +1,7 @@
-# Part of the Crystallography Open Database
-# All data on this site have been placed in the public domain by the
-# contributors.
 #------------------------------------------------------------------------------
-#$Date: 2010-06-10 15:11:07 +0000 (Thu, 10 Jun 2010) $
-#$Revision: 1210 $
-#$URL: svn://cod.ibt.lt/cod/cif/9/9008839.cif $
+#$Date: 2024-05-06 10:39:41 +0300 (Mon, 06 May 2024) $
+#$Revision: 291735 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/88/9008839.cif $
 #------------------------------------------------------------------------------
 #
 # This file is available in the Crystallography Open Database (COD),
@@ -41,10 +38,11 @@ _cell_angle_gamma                90
 _cell_length_a                   5.818
 _cell_length_b                   5.818
 _cell_length_c                   5.818
+_cell_formula_units_Z            4
 _cell_volume                     196.934
 _exptl_crystal_density_diffrn    4.873
 _cod_database_code               9008839
-_amcsd_database_code             AMCSD#0011170
+_database_code_amcsd             0011517
 loop_
 _symmetry_equiv_pos_as_xyz
 x,y,z
@@ -150,3 +148,12 @@ _atom_site_fract_y
 _atom_site_fract_z
 Cd 0.00000 0.00000 0.00000
 S 0.25000 0.25000 0.25000
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+_cod_related_entry_description
+1 AMCSD 0000070 .
+2 AMCSD 0011517 .
+3 Wikidata Q411830 hawleyite
+_cod_duplicate_entry 9000067

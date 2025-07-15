@@ -1,6 +1,6 @@
 #------------------------------------------------------------------------------
-#$Date: 2012-02-28 15:44:07 +0000 (Tue, 28 Feb 2012) $
-#$Revision: 35913 $
+#$Date: 2024-08-03 13:19:43 +0300 (Sat, 03 Aug 2024) $
+#$Revision: 293658 $
 #$URL: file:///home/coder/svn-repositories/cod/cif/9/00/81/9008122.cif $
 #------------------------------------------------------------------------------
 #
@@ -21,7 +21,6 @@ _publ_author_name
 _publ_section_title
 ;
  Refinement of the structure of hemimorphite
- Locality: sample is from the same batch of crystals used by
  Barclay and Cox (1960)
  Note: Photographic Data
 ;
@@ -30,6 +29,8 @@ _journal_page_first              180
 _journal_page_last               191
 _journal_volume                  124
 _journal_year                    1967
+_chemical_compound_source
+'sample is from the same batch of crystals used by'
 _chemical_formula_sum            'H2 O5 Si Zn2'
 _chemical_name_mineral           Hemimorphite
 _space_group_IT_number           44
@@ -38,16 +39,17 @@ _symmetry_space_group_name_H-M   'I m m 2'
 _cell_angle_alpha                90
 _cell_angle_beta                 90
 _cell_angle_gamma                90
+_cell_formula_units_Z            4
 _cell_length_a                   8.373
 _cell_length_b                   10.718
 _cell_length_c                   5.12
 _cell_volume                     459.478
+_database_code_amcsd             0010635
 _exptl_crystal_density_diffrn    3.482
-_[local]_cod_chemical_formula_sum_orig 'Zn2 Si O5 H2'
+_cod_original_formula_sum        'Zn2 Si O5 H2'
 _cod_database_code               9008122
-_amcsd_database_code             AMCSD#0010313
 loop_
-_symmetry_equiv_pos_as_xyz
+_space_group_symop_operation_xyz
 x,y,z
 1/2+x,1/2+y,1/2+z
 x,-y,z
@@ -68,7 +70,7 @@ Zn 0.01300 0.01600 0.01600 -0.00250 -0.00200 -0.00100
 Si 0.01200 0.01400 0.00900 0.00000 0.00000 0.00000
 O1 0.01300 0.02000 0.02100 -0.01200 -0.00600 -0.00850
 O2 0.01200 0.01700 0.01500 0.00000 0.00000 0.00150
-OH3 0.02900 0.01400 0.05000 0.00000 0.00000 0.00000
+O-H3 0.02900 0.01400 0.05000 0.00000 0.00000 0.00000
 O4 0.02200 0.01800 0.03100 0.00000 0.00000 0.00000
 Wat5 0.07000 0.19100 0.00900 0.00000 0.00000 0.00000
 loop_
@@ -76,10 +78,39 @@ _atom_site_label
 _atom_site_fract_x
 _atom_site_fract_y
 _atom_site_fract_z
-Zn 0.20440 0.16110 0.00000
-Si 0.00000 0.14740 0.50830
-O1 0.15850 0.20890 0.63700
-O2 0.00000 0.16870 0.19090
-O-H3 0.30880 0.00000 0.03960
-O4 0.00000 0.00000 0.58160
-Wat5 0.50000 0.00000 0.50510
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Zn 0.20440 0.16110 0.00000 Zn 0
+Si 0.00000 0.14740 0.50830 Si 0
+O1 0.15850 0.20890 0.63700 O 0
+O2 0.00000 0.16870 0.19090 O 0
+O-H3 0.30880 0.00000 0.03960 O 1
+O4 0.00000 0.00000 0.58160 O 0
+Wat5 0.50000 0.00000 0.50510 O 2
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:51:11+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+2
+;cod-tools version 3.10.1
+Id: cif_fix_AMCSD_aniso_labels 10200 2024-08-01 14:09:44Z saulius
+;
+2024-08-02T12:21:08+03:00
+;Changed the following '_atom_site_aniso_label' values:
+'OH3' -> 'O-H3'
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0010635

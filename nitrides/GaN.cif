@@ -1,6 +1,6 @@
 #------------------------------------------------------------------------------
-#$Date: 2012-02-28 15:44:07 +0000 (Tue, 28 Feb 2012) $
-#$Revision: 35913 $
+#$Date: 2024-05-06 10:39:41 +0300 (Mon, 06 May 2024) $
+#$Revision: 291735 $
 #$URL: file:///home/coder/svn-repositories/cod/cif/9/00/88/9008868.cif $
 #------------------------------------------------------------------------------
 #
@@ -27,8 +27,8 @@ _journal_page_first              85
 _journal_page_last               237
 _journal_volume                  1
 _journal_year                    1963
+_chemical_formula_structural     GaN
 _chemical_formula_sum            'Ga N'
-_chemical_name_mineral           GaN
 _space_group_IT_number           186
 _symmetry_space_group_name_Hall  'P 6c -2c'
 _symmetry_space_group_name_H-M   'P 63 m c'
@@ -38,12 +38,14 @@ _cell_angle_gamma                120
 _cell_length_a                   3.180
 _cell_length_b                   3.180
 _cell_length_c                   5.166
+_cell_formula_units_Z            2
 _cell_volume                     45.242
+_database_code_amcsd             0011546
 _exptl_crystal_density_diffrn    6.146
 _cod_database_code               9008868
-_amcsd_database_code             AMCSD#0011199
+_amcsd_formula_title             GaN
 loop_
-_symmetry_equiv_pos_as_xyz
+_space_group_symop_operation_xyz
 x,y,z
 -x,-x+y,1/2+z
 x-y,x,1/2+z
@@ -63,3 +65,8 @@ _atom_site_fract_y
 _atom_site_fract_z
 Ga 0.33333 0.66667 0.00000
 N 0.33333 0.66667 0.38500
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0011546

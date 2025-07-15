@@ -1,10 +1,7 @@
-# Part of the Crystallography Open Database
-# All data on this site have been placed in the public domain by the
-# contributors.
 #------------------------------------------------------------------------------
-#$Date: 2010-06-10 15:11:07 +0000 (Thu, 10 Jun 2010) $
-#$Revision: 1210 $
-#$URL: svn://cod.ibt.lt/cod/cif/9/9004096.cif $
+#$Date: 2024-04-25 17:59:02 +0300 (Thu, 25 Apr 2024) $
+#$Revision: 291351 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/40/9004096.cif $
 #------------------------------------------------------------------------------
 #
 # This file is available in the Crystallography Open Database (COD),
@@ -30,6 +27,7 @@ _journal_page_first              289
 _journal_page_last               292
 _journal_volume                  13
 _journal_year                    1975
+_chemical_compound_source        'Leopoldshall, East Germany'
 _chemical_formula_sum            'Ca O4 S'
 _chemical_name_mineral           Anhydrite
 _space_group_IT_number           63
@@ -41,13 +39,14 @@ _cell_angle_gamma                90
 _cell_length_a                   6.993
 _cell_length_b                   6.995
 _cell_length_c                   6.245
+_cell_formula_units_Z            4
 _cell_volume                     305.481
+_database_code_amcsd             0005117
 _exptl_crystal_density_diffrn    2.960
-_[local]_cod_chemical_formula_sum_orig 'Ca S O4'
+_cod_original_formula_sum        'Ca S O4'
 _cod_database_code               9004096
-_amcsd_database_code             AMCSD#0005077
 loop_
-_symmetry_equiv_pos_as_xyz
+_space_group_symop_operation_xyz
 x,y,z
 x,1/2+y,1/2+z
 1/2+x,y,-z
@@ -85,3 +84,8 @@ Ca 0.75000 0.00000 0.34760
 S 0.25000 0.00000 0.15556
 O1 0.25000 0.16990 0.01620
 O2 0.08190 0.00000 0.29750
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0005117

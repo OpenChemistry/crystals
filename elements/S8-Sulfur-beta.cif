@@ -1,10 +1,7 @@
-# Part of the Crystallography Open Database
-# All data on this site have been placed in the public domain by the
-# contributors.
 #------------------------------------------------------------------------------
-#$Date: 2011-06-11 06:04:15 +0000 (Sat, 11 Jun 2011) $
-#$Revision: 20519 $
-#$URL: file:///home/coder/svn-repositories/cod/cif/9/9009891.cif $
+#$Date: 2024-05-06 10:39:41 +0300 (Mon, 06 May 2024) $
+#$Revision: 291735 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/98/9009891.cif $
 #------------------------------------------------------------------------------
 #
 # This file is available in the Crystallography Open Database (COD),
@@ -25,15 +22,17 @@ _publ_author_name
 _publ_section_title
 ;
  Crystal structure of monoclinic sulfur
- Locality: synthetic
  Note: this is known as the beta phase of sulfur
 ;
 _journal_name_full               'Inorganic Chemistry'
 _journal_page_first              1999
 _journal_page_last               2001
+_journal_paper_doi               10.1021/ic50162a059
 _journal_volume                  15
 _journal_year                    1976
+_chemical_compound_source        Synthetic
 _chemical_formula_sum            S8
+_chemical_name_common            Sulfur-(beta)
 _chemical_name_mineral           Sulphur
 _space_group_IT_number           14
 _symmetry_space_group_name_Hall  '-P 2ybc'
@@ -44,13 +43,14 @@ _cell_angle_gamma                90
 _cell_length_a                   10.926
 _cell_length_b                   10.855
 _cell_length_c                   10.790
+_cell_formula_units_Z            6
 _cell_volume                     1272.888
+_database_code_amcsd             0012682
 _exptl_crystal_density_diffrn    2.008
-_[local]_cod_chemical_formula_sum_orig S.75
+_cod_original_formula_sum        S.75
 _cod_database_code               9009891
-_amcsd_database_code             AMCSD#0013275
 loop_
-_symmetry_equiv_pos_as_xyz
+_space_group_symop_operation_xyz
 x,y,z
 x,1/2-y,1/2+z
 -x,1/2+y,1/2-z
@@ -101,3 +101,9 @@ S13 -0.11990 0.17090 -0.09810 0.50000
 S14 -0.12660 0.01050 -0.19660 0.50000
 S15 0.05100 -0.04660 -0.20300 0.50000
 S16 0.08990 -0.18220 -0.07430 0.50000
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 ChemSpider 59726
+2 AMCSD 0012682

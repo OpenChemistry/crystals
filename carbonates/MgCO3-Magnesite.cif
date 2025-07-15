@@ -1,6 +1,15 @@
-# Part of the Crystallography Open Database
+#------------------------------------------------------------------------------
+#$Date: 2016-03-02 09:51:31 +0200 (Wed, 02 Mar 2016) $
+#$Revision: 177123 $
+#$URL: svn://www.crystallography.net/cod/cif/5/91/00/5910029.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
 # All data on this site have been placed in the public domain by the
 # contributors.
+#
 data_5910029
 loop_
 _publ_author_name
@@ -36,7 +45,7 @@ _cell_length_a                   5.87
 _cell_length_b                   5.87
 _cell_length_c                   5.87
 _cell_volume                     100.131
-_[local]_cod_chemical_formula_sum_orig 'Mg C O3'
+_cod_original_formula_sum        'Mg C O3'
 _cod_database_code               5910029
 loop_
 _atom_site_fract_x

@@ -1,10 +1,7 @@
-# Part of the Crystallography Open Database
-# All data on this site have been placed in the public domain by the
-# contributors.
 #------------------------------------------------------------------------------
-#$Date: 2010-06-10 15:11:07 +0000 (Thu, 10 Jun 2010) $
-#$Revision: 1210 $
-#$URL: svn://cod.ibt.lt/cod/cif/9/9008856.cif $
+#$Date: 2024-05-06 10:39:41 +0300 (Mon, 06 May 2024) $
+#$Revision: 291735 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/88/9008856.cif $
 #------------------------------------------------------------------------------
 #
 # This file is available in the Crystallography Open Database (COD),
@@ -30,8 +27,8 @@ _journal_page_first              85
 _journal_page_last               237
 _journal_volume                  1
 _journal_year                    1963
+_chemical_formula_structural     SiC
 _chemical_formula_sum            'C Si'
-_chemical_name_mineral           SiC
 _space_group_IT_number           216
 _symmetry_space_group_name_Hall  'F -4 2 3'
 _symmetry_space_group_name_H-M   'F -4 3 m'
@@ -41,13 +38,15 @@ _cell_angle_gamma                90
 _cell_length_a                   4.348
 _cell_length_b                   4.348
 _cell_length_c                   4.348
+_cell_formula_units_Z            4
 _cell_volume                     82.199
+_database_code_amcsd             0011534
 _exptl_crystal_density_diffrn    3.240
-_[local]_cod_chemical_formula_sum_orig 'Si C'
+_cod_original_formula_sum        'Si C'
 _cod_database_code               9008856
-_amcsd_database_code             AMCSD#0011187
+_amcsd_formula_title             SiC
 loop_
-_symmetry_equiv_pos_as_xyz
+_space_group_symop_operation_xyz
 x,y,z
 x,1/2+y,1/2+z
 1/2+x,y,1/2+z
@@ -151,3 +150,8 @@ _atom_site_fract_y
 _atom_site_fract_z
 Si 0.00000 0.00000 0.00000
 C 0.25000 0.25000 0.25000
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0011534

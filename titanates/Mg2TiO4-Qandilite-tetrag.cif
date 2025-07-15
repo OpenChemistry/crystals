@@ -1,10 +1,7 @@
-# Part of the Crystallography Open Database
-# All data on this site have been placed in the public domain by the
-# contributors.
 #------------------------------------------------------------------------------
-#$Date: 2010-06-10 15:11:07 +0000 (Thu, 10 Jun 2010) $
-#$Revision: 1210 $
-#$URL: svn://cod.ibt.lt/cod/cif/9/9001694.cif $
+#$Date: 2024-04-18 18:56:43 +0300 (Thu, 18 Apr 2024) $
+#$Revision: 291269 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/16/9001694.cif $
 #------------------------------------------------------------------------------
 #
 # This file is available in the Crystallography Open Database (COD),
@@ -23,10 +20,9 @@ _publ_author_name
 'Peterson, R. C.'
 'Hunter, B. K.'
 _publ_section_title
-;
- Study of the cubic to tetragonal transition in Mg2TiO4 and Zn2TiO4 spinels by
- 17O MAS NMR and Rietveld refinement of X-ray diffraction data
- Sample: RLM446, Mg2TiO4
+;Study of the cubic to tetragonal transition in Mg2TiO4 and Zn2TiO4 spinels by
+ 17O MAS NMR and Rietveld refinement of X-ray diffraction data Sample: RLM446,
+ Mg2TiO4
 ;
 _journal_name_full               'American Mineralogist'
 _journal_page_first              885
@@ -44,13 +40,14 @@ _cell_angle_gamma                90
 _cell_length_a                   5.97705
 _cell_length_b                   5.97705
 _cell_length_c                   8.4161
+_cell_formula_units_Z            4
 _cell_volume                     300.666
+_database_code_amcsd             0001750
 _exptl_crystal_density_diffrn    3.545
-_[local]_cod_chemical_formula_sum_orig 'Mg2 Ti O4'
+_cod_original_formula_sum        'Mg2 Ti O4'
 _cod_database_code               9001694
-_amcsd_database_code             AMCSD#0001749
 loop_
-_symmetry_equiv_pos_as_xyz
+_space_group_symop_operation_xyz
 x,y,z
 y,x,3/4-z
 -y,x,1/4+z
@@ -73,3 +70,8 @@ Ti2 0.50000 0.23910 0.00000 0.92600 0.00431
 Mg2 0.50000 0.23910 0.00000 0.07400 0.00431
 O1 -0.02640 0.73680 0.25260 1.00000 0.00367
 O2 0.51880 0.26100 0.23290 1.00000 0.00393
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0001750

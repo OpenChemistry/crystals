@@ -1,10 +1,7 @@
-# Part of the Crystallography Open Database
-# All data on this site have been placed in the public domain by the
-# contributors.
 #------------------------------------------------------------------------------
-#$Date: 2010-06-10 15:11:07 +0000 (Thu, 10 Jun 2010) $
-#$Revision: 1210 $
-#$URL: svn://cod.ibt.lt/cod/cif/9/9008568.cif $
+#$Date: 2023-03-26 11:09:57 +0300 (Sun, 26 Mar 2023) $
+#$Revision: 282068 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/85/9008568.cif $
 #------------------------------------------------------------------------------
 #
 # This file is available in the Crystallography Open Database (COD),
@@ -37,16 +34,24 @@ _symmetry_space_group_name_H-M   'F d -3 m :1'
 _cell_angle_alpha                90
 _cell_angle_beta                 90
 _cell_angle_gamma                90
+_cell_formula_units_Z            8
 _cell_length_a                   6.4912
 _cell_length_b                   6.4912
 _cell_length_c                   6.4912
 _cell_volume                     273.511
+_database_code_amcsd             0011246
 _exptl_crystal_density_diffrn    5.766
-_[local]_cod_cif_authors_sg_H-M  'F d 3 m'
+_cod_depositor_comments
+;
+ Added the _cell_formula_units_Z data item.
+
+ Antanas Vaitkus,
+ 2021-04-22
+;
+_cod_original_sg_symbol_H-M      'F d 3 m'
 _cod_database_code               9008568
-_amcsd_database_code             AMCSD#0010899
 loop_
-_symmetry_equiv_pos_as_xyz
+_space_group_symop_operation_xyz
 x,y,z
 x,1/2+y,1/2+z
 1/2+x,y,1/2+z
@@ -245,3 +250,8 @@ _atom_site_fract_x
 _atom_site_fract_y
 _atom_site_fract_z
 Sn 0.00000 0.00000 0.00000
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0011246

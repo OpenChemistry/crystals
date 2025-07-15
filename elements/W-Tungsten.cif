@@ -1,6 +1,6 @@
 #------------------------------------------------------------------------------
-#$Date: 2021-04-22 13:37:23 +0300 (Thu, 22 Apr 2021) $
-#$Revision: 264408 $
+#$Date: 2023-03-26 10:30:59 +0300 (Sun, 26 Mar 2023) $
+#$Revision: 282067 $
 #$URL: file:///home/coder/svn-repositories/cod/cif/9/01/24/9012433.cif $
 #------------------------------------------------------------------------------
 #
@@ -21,7 +21,6 @@ _publ_author_name
 _publ_section_title
 ;
  Precision determination of lattice constants
- Locality: synthetic
  Sample: at T = 25 C
  Note: sample 1
 ;
@@ -31,6 +30,7 @@ _journal_page_last               616
 _journal_paper_doi               10.1063/1.1749562
 _journal_volume                  3
 _journal_year                    1935
+_chemical_compound_source        Synthetic
 _chemical_formula_sum            W
 _chemical_name_mineral           Tungsten
 _space_group_IT_number           229
@@ -44,6 +44,7 @@ _cell_length_a                   3.1583
 _cell_length_b                   3.1583
 _cell_length_c                   3.1583
 _cell_volume                     31.504
+_database_code_amcsd             0012938
 _diffrn_ambient_temperature      298.15
 _exptl_crystal_density_diffrn    19.381
 _cod_depositor_comments
@@ -56,7 +57,7 @@ _cod_depositor_comments
 _cod_original_sg_symbol_H-M      'I m 3 m'
 _cod_database_code               9012433
 loop_
-_symmetry_equiv_pos_as_xyz
+_space_group_symop_operation_xyz
 x,y,z
 1/2+x,1/2+y,1/2+z
 z,-x,y
@@ -164,3 +165,4 @@ _cod_related_entry_id
 _cod_related_entry_database
 _cod_related_entry_code
 1 ChemSpider 22403
+2 AMCSD 0012938

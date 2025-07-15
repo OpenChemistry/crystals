@@ -1,10 +1,7 @@
-# Part of the Crystallography Open Database
-# All data on this site have been placed in the public domain by the
-# contributors.
 #------------------------------------------------------------------------------
-#$Date: 2010-06-10 15:11:07 +0000 (Thu, 10 Jun 2010) $
-#$Revision: 1210 $
-#$URL: svn://cod.ibt.lt/cod/cif/9/9008595.cif $
+#$Date: 2024-05-06 10:39:41 +0300 (Mon, 06 May 2024) $
+#$Revision: 291735 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/85/9008595.cif $
 #------------------------------------------------------------------------------
 #
 # This file is available in the Crystallography Open Database (COD),
@@ -29,21 +26,24 @@ _journal_page_first              7
 _journal_page_last               83
 _journal_volume                  1
 _journal_year                    1963
-_chemical_formula_sum            I
-_chemical_name_mineral           Iodine
+_chemical_formula_sum            I2
+_chemical_name_common            Iodine
 _space_group_IT_number           64
+_space_group_name_Hall           '-B 2ab 2'
+_space_group_name_H-M_alt        'B m e b'
 _symmetry_space_group_name_Hall  '-B 2ab 2'
-_symmetry_space_group_name_H-M   'B m a b'
+_symmetry_space_group_name_H-M   'B m e b'
 _cell_angle_alpha                90
 _cell_angle_beta                 90
 _cell_angle_gamma                90
 _cell_length_a                   7.27007
 _cell_length_b                   9.79344
 _cell_length_c                   4.79004
+_cell_formula_units_Z            4
 _cell_volume                     341.046
 _exptl_crystal_density_diffrn    4.943
+_cod_original_sg_symbol_H-M      'B m a b'
 _cod_database_code               9008595
-_amcsd_database_code             AMCSD#0010926
 loop_
 _symmetry_equiv_pos_as_xyz
 x,y,z
@@ -68,3 +68,9 @@ _atom_site_fract_x
 _atom_site_fract_y
 _atom_site_fract_z
 I 0.00000 0.11560 0.14930
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 ChemSpider 785
+_database_code_amcsd 0011273

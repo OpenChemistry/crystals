@@ -1,10 +1,7 @@
-# Part of the Crystallography Open Database
-# All data on this site have been placed in the public domain by the
-# contributors.
 #------------------------------------------------------------------------------
-#$Date: 2010-06-10 15:11:07 +0000 (Thu, 10 Jun 2010) $
-#$Revision: 1210 $
-#$URL: svn://cod.ibt.lt/cod/cif/9/9008495.cif $
+#$Date: 2024-05-06 10:39:41 +0300 (Mon, 06 May 2024) $
+#$Revision: 291735 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/84/9008495.cif $
 #------------------------------------------------------------------------------
 #
 # This file is available in the Crystallography Open Database (COD),
@@ -32,6 +29,7 @@ _journal_page_last               83
 _journal_volume                  1
 _journal_year                    1963
 _chemical_formula_sum            Dy
+_chemical_name_common            Dysprosium
 _chemical_name_mineral           Dysprosium
 _space_group_IT_number           194
 _symmetry_space_group_name_Hall  '-P 6c 2c'
@@ -41,14 +39,15 @@ _cell_angle_beta                 90
 _cell_angle_gamma                120
 _cell_length_a                   3.5903
 _cell_length_b                   3.5903
+_cell_formula_units_Z            2
 _cell_length_c                   5.6475
 _cell_volume                     63.045
+_database_code_amcsd             0011172
 _diffrn_ambient_temperature      293
 _exptl_crystal_density_diffrn    8.560
 _cod_database_code               9008495
-_amcsd_database_code             AMCSD#0010825
 loop_
-_symmetry_equiv_pos_as_xyz
+_space_group_symop_operation_xyz
 x,y,z
 -x,-x+y,1/2+z
 x,x-y,1/2-z
@@ -79,3 +78,9 @@ _atom_site_fract_x
 _atom_site_fract_y
 _atom_site_fract_z
 Dy 0.33333 0.66667 0.25000
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 ChemSpider 22355
+2 AMCSD 0011172

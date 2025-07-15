@@ -1,10 +1,7 @@
-# Part of the Crystallography Open Database
-# All data on this site have been placed in the public domain by the
-# contributors.
 #------------------------------------------------------------------------------
-#$Date: 2010-06-10 15:11:07 +0000 (Thu, 10 Jun 2010) $
-#$Revision: 1210 $
-#$URL: svn://cod.ibt.lt/cod/cif/9/9012221.cif $
+#$Date: 2024-05-16 09:36:09 +0300 (Thu, 16 May 2024) $
+#$Revision: 291877 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/22/9012221.cif $
 #------------------------------------------------------------------------------
 #
 # This file is available in the Crystallography Open Database (COD),
@@ -27,14 +24,15 @@ _publ_author_name
 _publ_section_title
 ;
  Crystal structure of the product of Mg2+ insertion into V2O5 single crystals
- Locality: synthetic
  Sample: IIb
 ;
 _journal_name_full               'Journal of Solid State Chemistry'
 _journal_page_first              317
 _journal_page_last               323
+_journal_paper_doi               10.1006/jssc.1996.0186
 _journal_volume                  123
 _journal_year                    1996
+_chemical_compound_source        Synthetic
 _chemical_formula_sum            'O5 V2'
 _chemical_name_mineral           Shcherbinaite
 _space_group_IT_number           59
@@ -46,14 +44,15 @@ _cell_angle_gamma                90
 _cell_length_a                   11.544
 _cell_length_b                   3.571
 _cell_length_c                   4.383
+_cell_formula_units_Z            2
 _cell_volume                     180.683
+_database_code_amcsd             0013891
 _exptl_crystal_density_diffrn    3.343
-_[local]_cod_cif_authors_sg_H-M  'P m m n'
-_[local]_cod_chemical_formula_sum_orig 'V2 O5'
+_cod_original_sg_symbol_H-M      'P m m n'
+_cod_original_formula_sum        'V2 O5'
 _cod_database_code               9012221
-_amcsd_database_code             AMCSD#0012838
 loop_
-_symmetry_equiv_pos_as_xyz
+_space_group_symop_operation_xyz
 x,y,z
 x,1/2-y,z
 -x,1/2+y,-z
@@ -72,3 +71,8 @@ V 0.60123 0.25000 0.10860 0.00750
 O1 0.43090 0.25000 -0.00280 0.00990
 O2 0.60450 0.25000 0.46970 0.01740
 O3 0.75000 0.25000 0.00080 0.01270
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0013891

@@ -1,10 +1,7 @@
-# Part of the Crystallography Open Database
-# All data on this site have been placed in the public domain by the
-# contributors.
 #------------------------------------------------------------------------------
-#$Date: 2010-06-10 15:11:07 +0000 (Thu, 10 Jun 2010) $
-#$Revision: 1210 $
-#$URL: svn://cod.ibt.lt/cod/cif/9/9008655.cif $
+#$Date: 2024-05-06 10:39:41 +0300 (Mon, 06 May 2024) $
+#$Revision: 291735 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/86/9008655.cif $
 #------------------------------------------------------------------------------
 #
 # This file is available in the Crystallography Open Database (COD),
@@ -30,8 +27,8 @@ _journal_page_first              85
 _journal_page_last               237
 _journal_volume                  1
 _journal_year                    1963
+_chemical_formula_structural     KOH
 _chemical_formula_sum            'H K O'
-_chemical_name_mineral           KOH
 _space_group_IT_number           225
 _symmetry_space_group_name_Hall  '-F 4 2 3'
 _symmetry_space_group_name_H-M   'F m -3 m'
@@ -40,15 +37,17 @@ _cell_angle_beta                 90
 _cell_angle_gamma                90
 _cell_length_a                   5.78
 _cell_length_b                   5.78
+_cell_formula_units_Z            4
 _cell_length_c                   5.78
 _cell_volume                     193.101
+_database_code_amcsd             0011333
 _exptl_crystal_density_diffrn    1.930
-_[local]_cod_cif_authors_sg_H-M  'F m 3 m'
-_[local]_cod_chemical_formula_sum_orig 'K (O H)'
+_cod_original_sg_symbol_H-M      'F m 3 m'
+_cod_original_formula_sum        'K (O H)'
 _cod_database_code               9008655
-_amcsd_database_code             AMCSD#0010986
+_amcsd_formula_title             KOH
 loop_
-_symmetry_equiv_pos_as_xyz
+_space_group_symop_operation_xyz
 x,y,z
 x,1/2+y,1/2+z
 1/2+x,y,1/2+z
@@ -246,5 +245,26 @@ _atom_site_label
 _atom_site_fract_x
 _atom_site_fract_y
 _atom_site_fract_z
-K 0.00000 0.00000 0.00000
-O-H 0.50000 0.50000 0.50000
+_atom_site_attached_hydrogens
+_atom_site_type_symbol
+K 0.00000 0.00000 0.00000 0 K
+O-H 0.50000 0.50000 0.50000 1 O
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:51:22+03:00
+;Derived atom types
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0011333

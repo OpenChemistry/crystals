@@ -1,10 +1,7 @@
-# Part of the Crystallography Open Database
-# All data on this site have been placed in the public domain by the
-# contributors.
 #------------------------------------------------------------------------------
-#$Date: 2010-06-10 15:11:07 +0000 (Thu, 10 Jun 2010) $
-#$Revision: 1210 $
-#$URL: svn://cod.ibt.lt/cod/cif/9/9008550.cif $
+#$Date: 2024-05-06 10:39:41 +0300 (Mon, 06 May 2024) $
+#$Revision: 291735 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/85/9008550.cif $
 #------------------------------------------------------------------------------
 #
 # This file is available in the Crystallography Open Database (COD),
@@ -32,7 +29,7 @@ _journal_page_last               83
 _journal_volume                  1
 _journal_year                    1963
 _chemical_formula_sum            Rb
-_chemical_name_mineral           Rubidium
+_chemical_name_common            Rubidium
 _space_group_IT_number           229
 _symmetry_space_group_name_Hall  '-I 4 2 3'
 _symmetry_space_group_name_H-M   'I m -3 m'
@@ -42,12 +39,12 @@ _cell_angle_gamma                90
 _cell_length_a                   5.605
 _cell_length_b                   5.605
 _cell_length_c                   5.605
+_cell_formula_units_Z            2
 _cell_volume                     176.087
 _diffrn_ambient_temperature      78
 _exptl_crystal_density_diffrn    1.612
-_[local]_cod_cif_authors_sg_H-M  'I m 3 m'
+_cod_original_sg_symbol_H-M      'I m 3 m'
 _cod_database_code               9008550
-_amcsd_database_code             AMCSD#0010881
 loop_
 _symmetry_equiv_pos_as_xyz
 x,y,z
@@ -152,3 +149,12 @@ _atom_site_fract_x
 _atom_site_fract_y
 _atom_site_fract_z
 Rb 0.00000 0.00000 0.00000
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 ChemSpider 4512975
+2 AMCSD 0009191
+3 AMCSD 0011228
+_database_code_amcsd 0011228
+_cod_duplicate_entry 9011009

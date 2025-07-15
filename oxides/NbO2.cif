@@ -1,10 +1,7 @@
-# Part of the Crystallography Open Database
-# All data on this site have been placed in the public domain by the
-# contributors.
 #------------------------------------------------------------------------------
-#$Date: 2010-06-10 15:11:07 +0000 (Thu, 10 Jun 2010) $
-#$Revision: 1210 $
-#$URL: svn://cod.ibt.lt/cod/cif/9/9009093.cif $
+#$Date: 2024-01-03 17:45:20 +0200 (Wed, 03 Jan 2024) $
+#$Revision: 288648 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/90/9009093.cif $
 #------------------------------------------------------------------------------
 #
 # This file is available in the Crystallography Open Database (COD),
@@ -29,24 +26,26 @@ _journal_page_first              239
 _journal_page_last               444
 _journal_volume                  1
 _journal_year                    1963
+_chemical_formula_structural     NbO2
 _chemical_formula_sum            'Nb O2'
-_chemical_name_mineral           NbO2
 _space_group_IT_number           88
 _symmetry_space_group_name_Hall  'I 4bw -1bw'
 _symmetry_space_group_name_H-M   'I 41/a :1'
 _cell_angle_alpha                90
 _cell_angle_beta                 90
 _cell_angle_gamma                90
+_cell_formula_units_Z            32
 _cell_length_a                   13.71
 _cell_length_b                   13.71
 _cell_length_c                   5.985
 _cell_volume                     1124.965
+_database_code_amcsd             0011772
 _exptl_crystal_density_diffrn    5.900
-_[local]_cod_cif_authors_sg_H-M  'I 41/a'
+_cod_original_sg_symbol_H-M      'I 41/a'
 _cod_database_code               9009093
-_amcsd_database_code             AMCSD#0011425
+_amcsd_formula_title             NbO2
 loop_
-_symmetry_equiv_pos_as_xyz
+_space_group_symop_operation_xyz
 x,y,z
 1/2+x,1/2+y,1/2+z
 1/2+y,1/2-x,1/2-z
@@ -68,9 +67,24 @@ _atom_site_label
 _atom_site_fract_x
 _atom_site_fract_y
 _atom_site_fract_z
-Nb1 0.11000 8.12000 5.48000
-Nb2 0.13000 3.12000 5.01000
-O1 0.98000 6.13000 0.00000
-O2 0.97000 1.12000 5.50000
-O3 0.28000 0.12000 6.99000
-O4 0.26000 6.11000 8.50000
+Nb1 0.11800 0.12500 0.48300
+Nb2 0.13300 0.12500 0.01600
+O1 0.98600 0.13000 0.00100
+O2 0.97100 0.12500 0.50100
+O3 0.28000 0.12600 0.99300
+O4 0.26600 0.11800 0.50300
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1 'Vaitkus, Antanas' 2024-01-03T17:44:00+02:00
+;
+ Corrected atom site coordinates after consulting the updated version of AMCSD
+ entry 0011772. Added the _cell_formula_units_Z data item.
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0011772

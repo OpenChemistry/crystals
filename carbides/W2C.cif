@@ -1,11 +1,15 @@
-# Part of the Crystallography Open Database
-# All data on this site have been placed in the public domain by the
-# contributors.
+#------------------------------------------------------------------------------
+#$Date: 2016-03-02 09:51:31 +0200 (Wed, 02 Mar 2016) $
+#$Revision: 177123 $
+#$URL: svn://www.crystallography.net/cod/cif/5/91/00/5910041.cif $
+#------------------------------------------------------------------------------
+#
 # This file is available in the Crystallography Open Database (COD),
-# http://www.crystallography.net/.
+# http://www.crystallography.net/
 #
 # All data on this site have been placed in the public domain by the
 # contributors.
+#
 data_5910041
 loop_
 _publ_author_name
@@ -41,7 +45,7 @@ _cell_length_a                   2.99
 _cell_length_b                   2.99
 _cell_length_c                   4.72
 _cell_volume                     42.197
-_[local]_cod_chemical_formula_sum_orig 'W2 C'
+_cod_original_formula_sum        'W2 C'
 _cod_database_code               5910041
 loop_
 _atom_site_fract_x

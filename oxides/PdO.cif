@@ -1,7 +1,7 @@
 #------------------------------------------------------------------------------
-#$Date: 2010-06-10 16:46:06 +0000 (Thu, 10 Jun 2010) $
-#$Revision: 1213 $
-#$URL: svn://cod.ibt.lt/cod/cif/1/1009031.cif $
+#$Date: 2023-11-14 20:05:30 +0200 (Tue, 14 Nov 2023) $
+#$Revision: 287588 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/1/00/90/1009031.cif $
 #------------------------------------------------------------------------------
 #
 # This file is available in the Crystallography Open Database (COD),
@@ -24,6 +24,7 @@ _publ_section_title
 _journal_name_full               'Acta Crystallographica'
 _journal_page_first              661
 _journal_page_last               663
+_journal_paper_doi               10.1107/S0365110X53001800
 _journal_volume                  6
 _journal_year                    1953
 _chemical_compound_source        synthetic
@@ -31,9 +32,12 @@ _chemical_formula_structural     'Pd O'
 _chemical_formula_sum            'O Pd'
 _chemical_name_mineral           Palladinite
 _chemical_name_systematic        'Palladium oxide'
+_space_group_IT_number           131
+_space_group_name_Hall           '-P 4c 2 (x,y+1/2,z)'
+_space_group_name_H-M_alt        'P 42/m m c (a,b+1/2,c)'
 _symmetry_cell_setting           tetragonal
 _symmetry_Int_Tables_number      131
-_symmetry_space_group_name_H-M   'P 42/m m c S'
+_symmetry_space_group_name_H-M   'P 42/m m c (a,b+1/2,c)'
 _cell_angle_alpha                90
 _cell_angle_beta                 90
 _cell_angle_gamma                90
@@ -42,6 +46,8 @@ _cell_length_a                   3.03(1)
 _cell_length_b                   3.03(1)
 _cell_length_c                   5.33(2)
 _cell_volume                     48.9
+_exptl_crystal_density_diffrn    8.308
+_cod_original_sg_symbol_H-M      'P 42/m m c S'
 _cod_database_code               1009031
 loop_
 _symmetry_equiv_pos_as_xyz
@@ -79,5 +85,9 @@ _atom_type_symbol
 _atom_type_oxidation_number
 Pd2+ 2.000
 O2- -2.000
-_amcsd_database_code             AMCSD#0009095
-_exptl_crystal_density_diffrn    8.308
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 ChemSpider 66602
+_database_code_amcsd 0009157

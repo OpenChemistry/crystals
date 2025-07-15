@@ -1,6 +1,6 @@
 #------------------------------------------------------------------------------
-#$Date: 2012-02-28 15:44:07 +0000 (Tue, 28 Feb 2012) $
-#$Revision: 35913 $
+#$Date: 2024-05-02 13:48:35 +0300 (Thu, 02 May 2024) $
+#$Revision: 291455 $
 #$URL: file:///home/coder/svn-repositories/cod/cif/9/00/75/9007544.cif $
 #------------------------------------------------------------------------------
 #
@@ -21,13 +21,14 @@ _publ_author_name
 _publ_section_title
 ;
  The refinement of the crystal structure of skutterudite, CoAs3
- Locality: Bou-Azzer, Morocco
 ;
 _journal_name_full               'Acta Crystallographica, Section B'
 _journal_page_first              2288
 _journal_page_last               2289
+_journal_paper_doi               10.1107/S0567740871005727
 _journal_volume                  27
 _journal_year                    1971
+_chemical_compound_source        'Bou-Azzer, Morocco'
 _chemical_formula_sum            'As3 Co0.87 Fe0.11 Ni0.13'
 _chemical_name_mineral           Skutterudite
 _space_group_IT_number           204
@@ -39,14 +40,15 @@ _cell_angle_gamma                90
 _cell_length_a                   8.195
 _cell_length_b                   8.195
 _cell_length_c                   8.195
+_cell_formula_units_Z            8
 _cell_volume                     550.360
+_database_code_amcsd             0009417
 _exptl_crystal_density_diffrn    6.995
-_[local]_cod_cif_authors_sg_H-M  'I m 3'
-_[local]_cod_chemical_formula_sum_orig 'Co.87 Fe.11 Ni.13 As3'
+_cod_original_sg_symbol_H-M      'I m 3'
+_cod_original_formula_sum        'Co.87 Fe.11 Ni.13 As3'
 _cod_database_code               9007544
-_amcsd_database_code             AMCSD#0009341
 loop_
-_symmetry_equiv_pos_as_xyz
+_space_group_symop_operation_xyz
 x,y,z
 1/2+x,1/2+y,1/2+z
 z,x,-y
@@ -117,3 +119,8 @@ Co 0.25000 0.25000 0.25000 0.87000
 Fe 0.25000 0.25000 0.25000 0.11000
 Ni 0.25000 0.25000 0.25000 0.13000
 As 0.00000 0.34310 0.15030 1.00000
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0009417

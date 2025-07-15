@@ -1,10 +1,7 @@
-# Part of the Crystallography Open Database
-# All data on this site have been placed in the public domain by the
-# contributors.
 #------------------------------------------------------------------------------
-#$Date: 2010-06-10 15:11:07 +0000 (Thu, 10 Jun 2010) $
-#$Revision: 1210 $
-#$URL: svn://cod.ibt.lt/cod/cif/9/9008505.cif $
+#$Date: 2024-05-06 10:39:41 +0300 (Mon, 06 May 2024) $
+#$Revision: 291735 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/85/9008505.cif $
 #------------------------------------------------------------------------------
 #
 # This file is available in the Crystallography Open Database (COD),
@@ -31,7 +28,7 @@ _journal_page_last               83
 _journal_volume                  1
 _journal_year                    1963
 _chemical_formula_sum            Lu
-_chemical_name_mineral           Lutetium
+_chemical_name_common            Lutetium
 _space_group_IT_number           194
 _symmetry_space_group_name_Hall  '-P 6c 2c'
 _symmetry_space_group_name_H-M   'P 63/m m c'
@@ -42,9 +39,9 @@ _cell_length_a                   3.5031
 _cell_length_b                   3.5031
 _cell_length_c                   5.5509
 _cell_volume                     58.993
+_cell_formula_units_Z            2
 _exptl_crystal_density_diffrn    9.850
 _cod_database_code               9008505
-_amcsd_database_code             AMCSD#0010835
 loop_
 _symmetry_equiv_pos_as_xyz
 x,y,z
@@ -77,3 +74,12 @@ _atom_site_fract_x
 _atom_site_fract_y
 _atom_site_fract_z
 Lu 0.33333 0.66667 0.25000
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 ChemSpider 22371
+2 AMCSD 0009180
+3 AMCSD 0011182
+_database_code_amcsd 0011182
+_cod_duplicate_entry 9010998

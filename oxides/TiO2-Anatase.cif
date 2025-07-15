@@ -1,10 +1,7 @@
-# Part of the Crystallography Open Database
-# All data on this site have been placed in the public domain by the
-# contributors.
 #------------------------------------------------------------------------------
-#$Date: 2010-06-10 15:11:07 +0000 (Thu, 10 Jun 2010) $
-#$Revision: 1210 $
-#$URL: svn://cod.ibt.lt/cod/cif/9/9009086.cif $
+#$Date: 2024-05-06 10:39:41 +0300 (Mon, 06 May 2024) $
+#$Revision: 291735 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/90/9009086.cif $
 #------------------------------------------------------------------------------
 #
 # This file is available in the Crystallography Open Database (COD),
@@ -40,14 +37,15 @@ _cell_angle_gamma                90
 _cell_length_a                   3.785
 _cell_length_b                   3.785
 _cell_length_c                   9.514
+_cell_formula_units_Z            4
 _cell_volume                     136.300
+_database_code_amcsd             0011765
 _exptl_crystal_density_diffrn    3.893
-_[local]_cod_cif_authors_sg_H-M  'I 41/a m d'
-_[local]_cod_chemical_formula_sum_orig 'Ti O2'
+_cod_original_sg_symbol_H-M      'I 41/a m d'
+_cod_original_formula_sum        'Ti O2'
 _cod_database_code               9009086
-_amcsd_database_code             AMCSD#0011418
 loop_
-_symmetry_equiv_pos_as_xyz
+_space_group_symop_operation_xyz
 x,y,z
 1/2+x,1/2+y,1/2+z
 -y,1/2-x,1/4+z
@@ -87,3 +85,9 @@ _atom_site_fract_y
 _atom_site_fract_z
 Ti 0.00000 0.00000 0.00000
 O 0.00000 0.00000 0.20660
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 ChemSpider 142802
+2 AMCSD 0011765
