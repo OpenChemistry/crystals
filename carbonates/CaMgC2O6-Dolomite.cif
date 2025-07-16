@@ -1,10 +1,7 @@
-# Part of the Crystallography Open Database
-# All data on this site have been placed in the public domain by the
-# contributors.
 #------------------------------------------------------------------------------
-#$Date: 2010-06-10 15:11:07 +0000 (Thu, 10 Jun 2010) $
-#$Revision: 1210 $
-#$URL: svn://cod.ibt.lt/cod/cif/9/9001004.cif $
+#$Date: 2024-04-18 18:56:43 +0300 (Thu, 18 Apr 2024) $
+#$Revision: 291269 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/10/9001004.cif $
 #------------------------------------------------------------------------------
 #
 # This file is available in the Crystallography Open Database (COD),
@@ -42,13 +39,14 @@ _cell_angle_gamma                120
 _cell_length_a                   4.8069
 _cell_length_b                   4.8069
 _cell_length_c                   16.002
+_cell_formula_units_Z            3
 _cell_volume                     320.210
+_database_code_amcsd             0001026
 _diffrn_ambient_temperature      297.15
 _exptl_crystal_density_diffrn    2.869
-_[local]_cod_cif_authors_sg_H-M  'R -3'
-_[local]_cod_chemical_formula_sum_orig 'Ca Mg C2 O6'
+_cod_original_sg_symbol_H-M      'R -3'
+_cod_original_formula_sum        'Ca Mg C2 O6'
 _cod_database_code               9001004
-_amcsd_database_code             AMCSD#0001025
 loop_
 _symmetry_equiv_pos_as_xyz
 x,y,z
@@ -90,3 +88,8 @@ Ca 0.00000 0.00000 0.00000
 Mg 0.00000 0.00000 0.50000
 C 0.00000 0.00000 0.24289
 O 0.24800 -0.03540 0.24393
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0001026

@@ -1,10 +1,7 @@
-# Part of the Crystallography Open Database
-# All data on this site have been placed in the public domain by the
-# contributors.
 #------------------------------------------------------------------------------
-#$Date: 2010-06-10 15:11:07 +0000 (Thu, 10 Jun 2010) $
-#$Revision: 1210 $
-#$URL: svn://cod.ibt.lt/cod/cif/9/9007477.cif $
+#$Date: 2024-05-02 13:48:35 +0300 (Thu, 02 May 2024) $
+#$Revision: 291455 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/74/9007477.cif $
 #------------------------------------------------------------------------------
 #
 # This file is available in the Crystallography Open Database (COD),
@@ -29,10 +26,11 @@ _publ_section_title
 _journal_name_full               'Acta Crystallographica'
 _journal_page_first              842
 _journal_page_last               846
+_journal_paper_doi               10.1107/S0365110X64002262
 _journal_volume                  17
 _journal_year                    1964
+_chemical_formula_structural     GeO2
 _chemical_formula_sum            'Ge O2'
-_chemical_name_mineral           GeO2
 _symmetry_space_group_name_H-M   'P 32 2 1'
 _cell_angle_alpha                90
 _cell_angle_beta                 90
@@ -40,12 +38,14 @@ _cell_angle_gamma                120
 _cell_length_a                   4.987
 _cell_length_b                   4.987
 _cell_length_c                   5.652
+_cell_formula_units_Z            3
 _cell_volume                     121.734
+_database_code_amcsd             0009284
 _exptl_crystal_density_diffrn    4.281
 _cod_database_code               9007477
-_amcsd_database_code             AMCSD#0009217
+_amcsd_formula_title             GeO2
 loop_
-_symmetry_equiv_pos_as_xyz
+_space_group_symop_operation_xyz
 x,y,z
 y,x,2/3-z
 -y,x-y,2/3+z
@@ -69,3 +69,8 @@ _atom_site_fract_y
 _atom_site_fract_z
 Ge 0.45130 0.00000 0.00000
 O 0.39690 0.30210 0.09090
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0009284

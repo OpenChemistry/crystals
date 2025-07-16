@@ -1,6 +1,6 @@
 #------------------------------------------------------------------------------
-#$Date: 2012-02-28 15:44:07 +0000 (Tue, 28 Feb 2012) $
-#$Revision: 35913 $
+#$Date: 2024-08-07 20:09:39 +0300 (Wed, 07 Aug 2024) $
+#$Revision: 294031 $
 #$URL: file:///home/coder/svn-repositories/cod/cif/9/00/27/9002779.cif $
 #------------------------------------------------------------------------------
 #
@@ -20,9 +20,8 @@ _publ_author_name
 'Gualtieri, A.'
 'Artioli, G.'
 _publ_section_title
-;
- The nature of disorder in montmorillonite by simulation of X-ray powder patterns
- Note: Structural simulation model
+;The nature of disorder in montmorillonite by simulation of X-ray powder
+ patterns Note: Structural simulation model
 ;
 _journal_name_full               'American Mineralogist'
 _journal_page_first              966
@@ -37,16 +36,17 @@ _symmetry_space_group_name_H-M   'P 1'
 _cell_angle_alpha                90
 _cell_angle_beta                 90
 _cell_angle_gamma                90
+_cell_formula_units_Z            2
 _cell_length_a                   5.18
 _cell_length_b                   8.98
 _cell_length_c                   15.00
 _cell_volume                     697.746
+_database_code_amcsd             0002868
 _exptl_crystal_density_diffrn    1.801
-_[local]_cod_chemical_formula_sum_orig 'Al2 Si4 O12 Ca.5'
+_cod_original_formula_sum        'Al2 Si4 O12 Ca.5'
 _cod_database_code               9002779
-_amcsd_database_code             AMCSD#0002867
 loop_
-_symmetry_equiv_pos_as_xyz
+_space_group_symop_operation_xyz
 x,y,z
 loop_
 _atom_site_label
@@ -55,41 +55,96 @@ _atom_site_fract_y
 _atom_site_fract_z
 _atom_site_occupancy
 _atom_site_U_iso_or_equiv
-Al 0.87530 0.33300 0.22140 1.00000 0.02000
-Al 0.87530 0.66700 0.22140 1.00000 0.02000
-Al 0.37530 0.83300 0.22140 1.00000 0.02000
-Al 0.37530 0.16700 0.22140 1.00000 0.02000
-Si 0.55880 0.32900 0.04300 1.00000 0.02000
-Si 0.55880 0.67100 0.04300 1.00000 0.02000
-Si 0.69190 0.82900 0.39990 1.00000 0.02000
-Si 0.69190 0.17100 0.39990 1.00000 0.02000
-Si 0.05880 0.82900 0.04300 1.00000 0.02000
-Si 0.05880 0.17100 0.04300 1.00000 0.02000
-Si 0.19190 0.32900 0.39990 1.00000 0.02000
-Si 0.19190 0.67100 0.39990 1.00000 0.02000
-O 0.51340 0.50000 0.00990 1.00000 0.02000
-O 0.82800 0.72800 0.00000 1.00000 0.02000
-O 0.82800 0.27200 0.00000 1.00000 0.02000
-O 0.49540 0.00000 0.15200 1.00000 0.02000
-O 0.56820 0.69100 0.14870 1.00000 0.02000
-O 0.57220 0.30900 0.14870 1.00000 0.02000
-O 0.73730 0.00000 0.43290 1.00000 0.02000
-O 0.42270 0.22800 0.44280 1.00000 0.02000
-O 0.42270 0.77200 0.44280 1.00000 0.02000
-O 0.75530 0.50000 0.29080 1.00000 0.02000
-O 0.68240 0.19100 0.29410 1.00000 0.02000
-O 0.67840 0.80900 0.29410 1.00000 0.02000
-O 0.01340 0.00000 0.00990 1.00000 0.02000
-O 0.32800 0.22800 0.00000 1.00000 0.02000
-O 0.32800 0.77200 0.00000 1.00000 0.02000
-O 0.99540 0.50000 0.15200 1.00000 0.02000
-O 0.06820 0.19100 0.14870 1.00000 0.02000
-O 0.07220 0.80900 0.14870 1.00000 0.02000
-O 0.23730 0.50000 0.43290 1.00000 0.02000
-O 0.92270 0.72800 0.44280 1.00000 0.02000
-O 0.92270 0.27200 0.44280 1.00000 0.02000
-O 0.25530 0.00000 0.29080 1.00000 0.02000
-O 0.18240 0.69100 0.29410 1.00000 0.02000
-O 0.17840 0.30900 0.29410 1.00000 0.02000
-Ca 0.18930 0.00000 0.72150 0.50000 0.02000
-Ca 0.68930 0.50000 0.72150 0.50000 0.02000
+Al1 0.87530 0.33300 0.22140 1.00000 0.02000
+Al2 0.87530 0.66700 0.22140 1.00000 0.02000
+Al3 0.37530 0.83300 0.22140 1.00000 0.02000
+Al4 0.37530 0.16700 0.22140 1.00000 0.02000
+Si1 0.55880 0.32900 0.04300 1.00000 0.02000
+Si2 0.55880 0.67100 0.04300 1.00000 0.02000
+Si3 0.69190 0.82900 0.39990 1.00000 0.02000
+Si4 0.69190 0.17100 0.39990 1.00000 0.02000
+Si5 0.05880 0.82900 0.04300 1.00000 0.02000
+Si6 0.05880 0.17100 0.04300 1.00000 0.02000
+Si7 0.19190 0.32900 0.39990 1.00000 0.02000
+Si8 0.19190 0.67100 0.39990 1.00000 0.02000
+O1 0.51340 0.50000 0.00990 1.00000 0.02000
+O2 0.82800 0.72800 0.00000 1.00000 0.02000
+O3 0.82800 0.27200 0.00000 1.00000 0.02000
+O4 0.49540 0.00000 0.15200 1.00000 0.02000
+O5 0.56820 0.69100 0.14870 1.00000 0.02000
+O6 0.57220 0.30900 0.14870 1.00000 0.02000
+O7 0.73730 0.00000 0.43290 1.00000 0.02000
+O8 0.42270 0.22800 0.44280 1.00000 0.02000
+O9 0.42270 0.77200 0.44280 1.00000 0.02000
+O10 0.75530 0.50000 0.29080 1.00000 0.02000
+O11 0.68240 0.19100 0.29410 1.00000 0.02000
+O12 0.67840 0.80900 0.29410 1.00000 0.02000
+O13 0.01340 0.00000 0.00990 1.00000 0.02000
+O14 0.32800 0.22800 0.00000 1.00000 0.02000
+O15 0.32800 0.77200 0.00000 1.00000 0.02000
+O16 0.99540 0.50000 0.15200 1.00000 0.02000
+O17 0.06820 0.19100 0.14870 1.00000 0.02000
+O18 0.07220 0.80900 0.14870 1.00000 0.02000
+O19 0.23730 0.50000 0.43290 1.00000 0.02000
+O20 0.92270 0.72800 0.44280 1.00000 0.02000
+O21 0.92270 0.27200 0.44280 1.00000 0.02000
+O22 0.25530 0.00000 0.29080 1.00000 0.02000
+O23 0.18240 0.69100 0.29410 1.00000 0.02000
+O24 0.17840 0.30900 0.29410 1.00000 0.02000
+Ca1 0.18930 0.00000 0.72150 0.50000 0.02000
+Ca2 0.68930 0.50000 0.72150 0.50000 0.02000
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.10.1
+Id: cif_fix_AMCSD_atom_labels 10224 2024-08-07 11:09:31Z saulius
+;
+2024-08-07T19:38:54+03:00
+;Changed the following '_atom_site_label' values:
+the first duplicated label 'Al'  converted to 'Al1'
+duplicated label 'Al' at index 1 converted to 'Al2'
+duplicated label 'Al' at index 2 converted to 'Al3'
+duplicated label 'Al' at index 3 converted to 'Al4'
+the first duplicated label 'Si'  converted to 'Si1'
+duplicated label 'Si' at index 5 converted to 'Si2'
+duplicated label 'Si' at index 6 converted to 'Si3'
+duplicated label 'Si' at index 7 converted to 'Si4'
+duplicated label 'Si' at index 8 converted to 'Si5'
+duplicated label 'Si' at index 9 converted to 'Si6'
+duplicated label 'Si' at index 10 converted to 'Si7'
+duplicated label 'Si' at index 11 converted to 'Si8'
+the first duplicated label 'O'  converted to 'O1'
+duplicated label 'O' at index 13 converted to 'O2'
+duplicated label 'O' at index 14 converted to 'O3'
+duplicated label 'O' at index 15 converted to 'O4'
+duplicated label 'O' at index 16 converted to 'O5'
+duplicated label 'O' at index 17 converted to 'O6'
+duplicated label 'O' at index 18 converted to 'O7'
+duplicated label 'O' at index 19 converted to 'O8'
+duplicated label 'O' at index 20 converted to 'O9'
+duplicated label 'O' at index 21 converted to 'O10'
+duplicated label 'O' at index 22 converted to 'O11'
+duplicated label 'O' at index 23 converted to 'O12'
+duplicated label 'O' at index 24 converted to 'O13'
+duplicated label 'O' at index 25 converted to 'O14'
+duplicated label 'O' at index 26 converted to 'O15'
+duplicated label 'O' at index 27 converted to 'O16'
+duplicated label 'O' at index 28 converted to 'O17'
+duplicated label 'O' at index 29 converted to 'O18'
+duplicated label 'O' at index 30 converted to 'O19'
+duplicated label 'O' at index 31 converted to 'O20'
+duplicated label 'O' at index 32 converted to 'O21'
+duplicated label 'O' at index 33 converted to 'O22'
+duplicated label 'O' at index 34 converted to 'O23'
+duplicated label 'O' at index 35 converted to 'O24'
+the first duplicated label 'Ca'  converted to 'Ca1'
+duplicated label 'Ca' at index 37 converted to 'Ca2'
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0002868

@@ -1,10 +1,7 @@
-# Part of the Crystallography Open Database
-# All data on this site have been placed in the public domain by the
-# contributors.
 #------------------------------------------------------------------------------
-#$Date: 2010-06-10 15:11:07 +0000 (Thu, 10 Jun 2010) $
-#$Revision: 1210 $
-#$URL: svn://cod.ibt.lt/cod/cif/9/9009098.cif $
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/90/9009098.cif $
 #------------------------------------------------------------------------------
 #
 # This file is available in the Crystallography Open Database (COD),
@@ -38,16 +35,17 @@ _symmetry_space_group_name_H-M   'P -3 m 1'
 _cell_angle_alpha                90
 _cell_angle_beta                 90
 _cell_angle_gamma                120
+_cell_formula_units_Z            1
 _cell_length_a                   3.5844
 _cell_length_b                   3.5844
 _cell_length_c                   4.8962
 _cell_volume                     54.478
+_database_code_amcsd             0011777
 _exptl_crystal_density_diffrn    2.258
-_[local]_cod_chemical_formula_sum_orig 'Ca (O2 H2)'
+_cod_original_formula_sum        'Ca (O2 H2)'
 _cod_database_code               9009098
-_amcsd_database_code             AMCSD#0011430
 loop_
-_symmetry_equiv_pos_as_xyz
+_space_group_symop_operation_xyz
 x,y,z
 -y,-x,z
 y,-x+y,-z
@@ -65,5 +63,26 @@ _atom_site_label
 _atom_site_fract_x
 _atom_site_fract_y
 _atom_site_fract_z
-Ca 0.00000 0.00000 0.00000
-O-H 0.33333 0.66667 0.23300
+_atom_site_attached_hydrogens
+_atom_site_type_symbol
+Ca 0.00000 0.00000 0.00000 0 Ca
+O-H 0.33333 0.66667 0.23300 1 O
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:51:23+03:00
+;Derived atom types
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0011777

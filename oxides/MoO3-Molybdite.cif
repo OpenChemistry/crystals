@@ -1,10 +1,7 @@
-# Part of the Crystallography Open Database
-# All data on this site have been placed in the public domain by the
-# contributors.
 #------------------------------------------------------------------------------
-#$Date: 2010-06-10 15:11:07 +0000 (Thu, 10 Jun 2010) $
-#$Revision: 1210 $
-#$URL: svn://cod.ibt.lt/cod/cif/9/9009670.cif $
+#$Date: 2024-05-06 10:39:41 +0300 (Mon, 06 May 2024) $
+#$Revision: 291735 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/96/9009670.cif $
 #------------------------------------------------------------------------------
 #
 # This file is available in the Crystallography Open Database (COD),
@@ -28,13 +25,14 @@ _publ_section_title
  preferred orientation models using X-ray diffraction data for molybdite
  and calcite powders
  Note: March model
- Locality: synthetic
 ;
 _journal_name_full               'Journal of Applied Crystallography'
 _journal_page_first              158
 _journal_page_last               167
+_journal_paper_doi               10.1107/S0021889804031231
 _journal_volume                  38
 _journal_year                    2005
+_chemical_compound_source        Synthetic
 _chemical_formula_sum            'Mo O3'
 _chemical_name_mineral           Molybdite
 _space_group_IT_number           62
@@ -46,12 +44,13 @@ _cell_angle_gamma                90
 _cell_length_a                   3.9621
 _cell_length_b                   13.855
 _cell_length_c                   3.6986
+_cell_formula_units_Z            4
 _cell_volume                     203.034
+_database_code_amcsd             0012870
 _exptl_crystal_density_diffrn    4.709
 _cod_database_code               9009670
-_amcsd_database_code             AMCSD#0012502
 loop_
-_symmetry_equiv_pos_as_xyz
+_space_group_symop_operation_xyz
 x,y,z
 x,y,1/2-z
 -x,-y,1/2+z
@@ -70,3 +69,8 @@ Mo 0.07500 0.10200 0.25000 0.01563
 O1 0.52600 0.42600 0.25000 0.01012
 O2 0.56600 0.08600 0.25000 0.01112
 O3 0.01000 0.22400 0.25000 0.01495
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0012870

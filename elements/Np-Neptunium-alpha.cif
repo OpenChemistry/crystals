@@ -1,10 +1,7 @@
-# Part of the Crystallography Open Database
-# All data on this site have been placed in the public domain by the
-# contributors.
 #------------------------------------------------------------------------------
-#$Date: 2010-06-10 15:11:07 +0000 (Thu, 10 Jun 2010) $
-#$Revision: 1210 $
-#$URL: svn://cod.ibt.lt/cod/cif/9/9008585.cif $
+#$Date: 2024-05-06 10:39:41 +0300 (Mon, 06 May 2024) $
+#$Revision: 291735 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/85/9008585.cif $
 #------------------------------------------------------------------------------
 #
 # This file is available in the Crystallography Open Database (COD),
@@ -31,6 +28,7 @@ _journal_page_last               83
 _journal_volume                  1
 _journal_year                    1963
 _chemical_formula_sum            Np
+_chemical_name_common            Neptunium-alpha
 _chemical_name_mineral           Neptunium-alpha
 _space_group_IT_number           62
 _symmetry_space_group_name_Hall  '-P 2n 2a'
@@ -41,12 +39,13 @@ _cell_angle_gamma                90
 _cell_length_a                   4.723
 _cell_length_b                   4.887
 _cell_length_c                   6.663
+_cell_formula_units_Z            8
 _cell_volume                     153.791
+_database_code_amcsd             0011263
 _exptl_crystal_density_diffrn    20.472
 _cod_database_code               9008585
-_amcsd_database_code             AMCSD#0010916
 loop_
-_symmetry_equiv_pos_as_xyz
+_space_group_symop_operation_xyz
 x,y,z
 1/2-x,y,z
 1/2+x,-y,-z
@@ -62,3 +61,9 @@ _atom_site_fract_y
 _atom_site_fract_z
 Np1 0.25000 0.20800 0.03600
 Np2 0.25000 0.84200 0.31900
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 ChemSpider 22375
+2 AMCSD 0011263

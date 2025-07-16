@@ -1,10 +1,7 @@
-# Part of the Crystallography Open Database
-# All data on this site have been placed in the public domain by the
-# contributors.
 #------------------------------------------------------------------------------
-#$Date: 2010-06-10 15:11:07 +0000 (Thu, 10 Jun 2010) $
-#$Revision: 1210 $
-#$URL: svn://cod.ibt.lt/cod/cif/9/9008678.cif $
+#$Date: 2024-05-06 10:39:41 +0300 (Mon, 06 May 2024) $
+#$Revision: 291735 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/86/9008678.cif $
 #------------------------------------------------------------------------------
 #
 # This file is available in the Crystallography Open Database (COD),
@@ -41,14 +38,15 @@ _cell_angle_gamma                90
 _cell_length_a                   5.64056
 _cell_length_b                   5.64056
 _cell_length_c                   5.64056
+_cell_formula_units_Z            4
 _cell_volume                     179.460
+_database_code_amcsd             0011356
 _exptl_crystal_density_diffrn    2.163
-_[local]_cod_cif_authors_sg_H-M  'F m 3 m'
-_[local]_cod_chemical_formula_sum_orig 'Na Cl'
+_cod_original_sg_symbol_H-M      'F m 3 m'
+_cod_original_formula_sum        'Na Cl'
 _cod_database_code               9008678
-_amcsd_database_code             AMCSD#0011009
 loop_
-_symmetry_equiv_pos_as_xyz
+_space_group_symop_operation_xyz
 x,y,z
 x,1/2+y,1/2+z
 1/2+x,y,1/2+z
@@ -248,3 +246,10 @@ _atom_site_fract_y
 _atom_site_fract_z
 Na 0.00000 0.00000 0.00000
 Cl 0.50000 0.50000 0.50000
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 MPOD 1000167
+2 MPOD 1000217
+3 AMCSD 0011356

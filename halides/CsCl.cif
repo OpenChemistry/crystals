@@ -1,10 +1,7 @@
-# Part of the Crystallography Open Database
-# All data on this site have been placed in the public domain by the
-# contributors.
 #------------------------------------------------------------------------------
-#$Date: 2010-06-10 15:11:07 +0000 (Thu, 10 Jun 2010) $
-#$Revision: 1210 $
-#$URL: svn://cod.ibt.lt/cod/cif/9/9008620.cif $
+#$Date: 2024-05-06 10:39:41 +0300 (Mon, 06 May 2024) $
+#$Revision: 291735 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/87/9008789.cif $
 #------------------------------------------------------------------------------
 #
 # This file is available in the Crystallography Open Database (COD),
@@ -16,231 +13,89 @@
 # proper attribution is given to the journal article from which the
 # data were obtained.
 #
-data_9008620
+data_9008789
 loop_
 _publ_author_name
 'Wyckoff, R. W. G.'
 _publ_section_title
 ;
  Second edition. Interscience Publishers, New York, New York
- rocksalt structure
+ Note: CsCl structure, cesium chloride structure
 ;
 _journal_name_full               'Crystal Structures'
 _journal_page_first              85
 _journal_page_last               237
 _journal_volume                  1
 _journal_year                    1963
+_chemical_formula_structural     CsCl
 _chemical_formula_sum            'Cl Cs'
-_chemical_name_mineral           CsCl
-_space_group_IT_number           225
-_symmetry_space_group_name_Hall  '-F 4 2 3'
-_symmetry_space_group_name_H-M   'F m -3 m'
+_space_group_IT_number           221
+_symmetry_space_group_name_Hall  '-P 4 2 3'
+_symmetry_space_group_name_H-M   'P m -3 m'
 _cell_angle_alpha                90
 _cell_angle_beta                 90
 _cell_angle_gamma                90
-_cell_length_a                   7.02
-_cell_length_b                   7.02
-_cell_length_c                   7.02
-_cell_volume                     345.948
-_exptl_crystal_density_diffrn    3.232
-_[local]_cod_cif_authors_sg_H-M  'F m 3 m'
-_[local]_cod_chemical_formula_sum_orig 'Cs Cl'
-_cod_database_code               9008620
-_amcsd_database_code             AMCSD#0010951
+_cell_length_a                   4.123
+_cell_length_b                   4.123
+_cell_length_c                   4.123
+_cell_formula_units_Z            1
+_cell_volume                     70.087
+_database_code_amcsd             0011467
+_exptl_crystal_density_diffrn    3.989
+_cod_original_sg_symbol_H-M      'P m 3 m'
+_cod_original_formula_sum        'Cs Cl'
+_cod_database_code               9008789
+_amcsd_formula_title             CsCl
 loop_
-_symmetry_equiv_pos_as_xyz
+_space_group_symop_operation_xyz
 x,y,z
-x,1/2+y,1/2+z
-1/2+x,y,1/2+z
-1/2+x,1/2+y,z
 z,-x,y
-z,1/2-x,1/2+y
-1/2+z,-x,1/2+y
-1/2+z,1/2-x,y
 -y,z,-x
--y,1/2+z,1/2-x
-1/2-y,z,1/2-x
-1/2-y,1/2+z,-x
 x,-y,z
-x,1/2-y,1/2+z
-1/2+x,-y,1/2+z
-1/2+x,1/2-y,z
 -z,x,-y
--z,1/2+x,1/2-y
-1/2-z,x,1/2-y
-1/2-z,1/2+x,-y
 y,-z,x
-y,1/2-z,1/2+x
-1/2+y,-z,1/2+x
-1/2+y,1/2-z,x
 -x,y,-z
--x,1/2+y,1/2-z
-1/2-x,y,1/2-z
-1/2-x,1/2+y,-z
 x,-z,-y
-x,1/2-z,1/2-y
-1/2+x,-z,1/2-y
-1/2+x,1/2-z,-y
 -z,y,x
--z,1/2+y,1/2+x
-1/2-z,y,1/2+x
-1/2-z,1/2+y,x
 y,-x,-z
-y,1/2-x,1/2-z
-1/2+y,-x,1/2-z
-1/2+y,1/2-x,-z
 -x,z,y
--x,1/2+z,1/2+y
-1/2-x,z,1/2+y
-1/2-x,1/2+z,y
 z,-y,-x
-z,1/2-y,1/2-x
-1/2+z,-y,1/2-x
-1/2+z,1/2-y,-x
 -y,x,z
--y,1/2+x,1/2+z
-1/2-y,x,1/2+z
-1/2-y,1/2+x,z
 x,z,y
-x,1/2+z,1/2+y
-1/2+x,z,1/2+y
-1/2+x,1/2+z,y
 -z,-y,-x
--z,1/2-y,1/2-x
-1/2-z,-y,1/2-x
-1/2-z,1/2-y,-x
 y,x,z
-y,1/2+x,1/2+z
-1/2+y,x,1/2+z
-1/2+y,1/2+x,z
 -x,-z,-y
--x,1/2-z,1/2-y
-1/2-x,-z,1/2-y
-1/2-x,1/2-z,-y
 z,y,x
-z,1/2+y,1/2+x
-1/2+z,y,1/2+x
-1/2+z,1/2+y,x
 -y,-x,-z
--y,1/2-x,1/2-z
-1/2-y,-x,1/2-z
-1/2-y,1/2-x,-z
 z,x,-y
-z,1/2+x,1/2-y
-1/2+z,x,1/2-y
-1/2+z,1/2+x,-y
 -y,-z,x
--y,1/2-z,1/2+x
-1/2-y,-z,1/2+x
-1/2-y,1/2-z,x
 x,y,-z
-x,1/2+y,1/2-z
-1/2+x,y,1/2-z
-1/2+x,1/2+y,-z
 -z,-x,y
--z,1/2-x,1/2+y
-1/2-z,-x,1/2+y
-1/2-z,1/2-x,y
 y,z,-x
-y,1/2+z,1/2-x
-1/2+y,z,1/2-x
-1/2+y,1/2+z,-x
 -x,-y,z
--x,1/2-y,1/2+z
-1/2-x,-y,1/2+z
-1/2-x,1/2-y,z
 -z,x,y
--z,1/2+x,1/2+y
-1/2-z,x,1/2+y
-1/2-z,1/2+x,y
 y,-z,-x
-y,1/2-z,1/2-x
-1/2+y,-z,1/2-x
-1/2+y,1/2-z,-x
 -x,y,z
--x,1/2+y,1/2+z
-1/2-x,y,1/2+z
-1/2-x,1/2+y,z
 z,-x,-y
-z,1/2-x,1/2-y
-1/2+z,-x,1/2-y
-1/2+z,1/2-x,-y
 -y,z,x
--y,1/2+z,1/2+x
-1/2-y,z,1/2+x
-1/2-y,1/2+z,x
 x,-y,-z
-x,1/2-y,1/2-z
-1/2+x,-y,1/2-z
-1/2+x,1/2-y,-z
 -x,z,-y
--x,1/2+z,1/2-y
-1/2-x,z,1/2-y
-1/2-x,1/2+z,-y
 z,-y,x
-z,1/2-y,1/2+x
-1/2+z,-y,1/2+x
-1/2+z,1/2-y,x
 -y,x,-z
--y,1/2+x,1/2-z
-1/2-y,x,1/2-z
-1/2-y,1/2+x,-z
 x,-z,y
-x,1/2-z,1/2+y
-1/2+x,-z,1/2+y
-1/2+x,1/2-z,y
 -z,y,-x
--z,1/2+y,1/2-x
-1/2-z,y,1/2-x
-1/2-z,1/2+y,-x
 y,-x,z
-y,1/2-x,1/2+z
-1/2+y,-x,1/2+z
-1/2+y,1/2-x,z
 -x,-z,y
--x,1/2-z,1/2+y
-1/2-x,-z,1/2+y
-1/2-x,1/2-z,y
 z,y,-x
-z,1/2+y,1/2-x
-1/2+z,y,1/2-x
-1/2+z,1/2+y,-x
 -y,-x,z
--y,1/2-x,1/2+z
-1/2-y,-x,1/2+z
-1/2-y,1/2-x,z
 x,z,-y
-x,1/2+z,1/2-y
-1/2+x,z,1/2-y
-1/2+x,1/2+z,-y
 -z,-y,x
--z,1/2-y,1/2+x
-1/2-z,-y,1/2+x
-1/2-z,1/2-y,x
 y,x,-z
-y,1/2+x,1/2-z
-1/2+y,x,1/2-z
-1/2+y,1/2+x,-z
 -z,-x,-y
--z,1/2-x,1/2-y
-1/2-z,-x,1/2-y
-1/2-z,1/2-x,-y
 y,z,x
-y,1/2+z,1/2+x
-1/2+y,z,1/2+x
-1/2+y,1/2+z,x
 -x,-y,-z
--x,1/2-y,1/2-z
-1/2-x,-y,1/2-z
-1/2-x,1/2-y,-z
 z,x,y
-z,1/2+x,1/2+y
-1/2+z,x,1/2+y
-1/2+z,1/2+x,y
 -y,-z,-x
--y,1/2-z,1/2-x
-1/2-y,-z,1/2-x
-1/2-y,1/2-z,-x
 loop_
 _atom_site_label
 _atom_site_fract_x
@@ -248,3 +103,8 @@ _atom_site_fract_y
 _atom_site_fract_z
 Cs 0.00000 0.00000 0.00000
 Cl 0.50000 0.50000 0.50000
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0011467

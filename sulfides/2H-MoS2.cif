@@ -1,7 +1,7 @@
 #------------------------------------------------------------------------------
-#$Date: 2023-03-26 10:09:57 +0200 (Sun 26 de Mar de 2023) $
-#$Revision: 282068 $
-#$URL: svn://www.crystallography.net/cod/cif/9/00/91/9009144.cif $
+#$Date: 2024-05-06 10:39:41 +0300 (Mon, 06 May 2024) $
+#$Revision: 291735 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/91/9009144.cif $
 #------------------------------------------------------------------------------
 #
 # This file is available in the Crystallography Open Database (COD),
@@ -37,6 +37,7 @@ _cell_angle_gamma                120
 _cell_length_a                   3.1604
 _cell_length_b                   3.1604
 _cell_length_c                   12.295
+_cell_formula_units_Z            2
 _cell_volume                     106.351
 _database_code_amcsd             0011823
 _exptl_crystal_density_diffrn    4.999

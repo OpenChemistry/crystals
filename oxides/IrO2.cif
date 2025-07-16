@@ -1,11 +1,15 @@
-# Part of the Crystallography Open Database
-# All data on this site have been placed in the public domain by the
-# contributors.
+#------------------------------------------------------------------------------
+#$Date: 2017-10-13 15:23:06 +0300 (Fri, 13 Oct 2017) $
+#$Revision: 201983 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/5/91/00/5910069.cif $
+#------------------------------------------------------------------------------
+#
 # This file is available in the Crystallography Open Database (COD),
-# http://www.crystallography.net/.
+# http://www.crystallography.net/
 #
 # All data on this site have been placed in the public domain by the
 # contributors.
+#
 data_5910069
 loop_
 _publ_author_name
@@ -43,7 +47,7 @@ _cell_length_a                   4.49
 _cell_length_b                   4.49
 _cell_length_c                   3.14
 _cell_volume                     63.303
-_[local]_cod_cif_authors_sg_H-M  'P 42/mnm'
+_cod_original_sg_symbol_H-M      'P 42/mnm'
 _cod_database_code               5910069
 loop_
 _symmetry_equiv_pos_as_xyz
@@ -70,3 +74,8 @@ _atom_site_fract_z
 _atom_site_label
 0.00000 0.00000 0.00000 Ir
 0.30770 0.30770 0.00000 O
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 ChemSpider 10605808

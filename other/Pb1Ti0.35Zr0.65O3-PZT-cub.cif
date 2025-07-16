@@ -1,10 +1,7 @@
-# Part of the Crystallography Open Database
-# All data on this site have been placed in the public domain by the
-# contributors.
 #------------------------------------------------------------------------------
-#$Date: 2010-01-30 13:59:17 +0000 (Sat, 30 Jan 2010) $
-#$Revision: 966 $
-#$URL: svn://cod.ibt.lt/cod/cif/2/2102946.cif $
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/10/29/2102946.cif $
 #------------------------------------------------------------------------------
 #
 # This file is available in the Crystallography Open Database (COD),
@@ -27,26 +24,28 @@ _publ_author_name
 'Lente, M.H.'
 'Eiras, J.A.'
 _publ_section_title
-; X-ray powder difraction structural characterization of
-Pb(1-x)Ba(x)Zr(0.65)Ti(0.35)O3 ceramic.
+;
+ X-ray powder diffraction structural characterization of
+ Pb~1{-~<i>x</i>}Ba~<i>x~</i>Zr~0.65~Ti~0.35~O~3~ ceramic
 ;
 _journal_coeditor_code           KD5005
 _journal_issue                   5
-_journal_name_full               'Acta Crystallographica, Section B'
+_journal_name_full               'Acta Crystallographica Section B'
 _journal_page_first              713
 _journal_page_last               718
+_journal_paper_doi               10.1107/S0108768107022197
 _journal_volume                  63
 _journal_year                    2007
 _chemical_formula_analytical     'Pb (Zr0.65 Ti0.35) O3'
 _chemical_formula_moiety         'Pb Zi0.65 Ti0.35 O3'
 _chemical_formula_structural     'Pb (Zr0.65 Ti0.35) O3'
 _chemical_formula_sum            'O3 Pb Ti0.35 Zr0.65'
-_[local]_cod_chemical_formula_sum_orig 'O3 Pb1 Ti0.35 Zr0.65'
 _chemical_name_common            'Lead Zirconium Titanium Oxide'
 _chemical_name_systematic        ' Lead Zirconium Titanium Oxide'
+_space_group_IT_number           221
 _symmetry_cell_setting           cubic
 _symmetry_space_group_name_Hall  '-P 4 2 3'
-_symmetry_space_group_name_H-M   'P m -3m'
+_symmetry_space_group_name_H-M   'P m -3 m'
 _cell_angle_alpha                90.00000
 _cell_angle_beta                 90.00000
 _cell_angle_gamma                90.00000
@@ -54,7 +53,7 @@ _cell_length_a                   4.09836(3)
 _cell_length_b                   4.09836(3)
 _cell_length_c                   4.09836(3)
 _cell_measurement_temperature    650
-_cell_volume                     68.8383(7)
+_cell_volume                     68.8383(9)
 _computing_structure_refinement  FULLPROF
 _diffrn_ambient_temperature      298
 _diffrn_measurement_method       'theta/2theta step scans'
@@ -63,7 +62,12 @@ _diffrn_radiation_type           X-ray
 _refine_ls_number_parameters     11
 _refine_ls_number_reflns         23
 _refine_ls_number_restraints     0
-_[local]_cod_data_source_file    kd5005.cif
+_cod_data_source_file            kd5005.cif
+_cod_data_source_block           PBZT00_650K_cubic
+_cod_original_cell_volume        68.8383(7)
+_cod_original_sg_symbol_H-M      'P m -3m'
+_cod_original_formula_sum        'O3 Pb1 Ti0.35 Zr0.65'
+_cod_database_code               2102946
 loop_
 _symmetry_equiv_pos_as_xyz
 x,y,z
@@ -115,19 +119,6 @@ z,-y,x
 x,z,-y
 x,-z,y
 loop_
-_atom_type_symbol
-_atom_type_scat_dispersion_real
-_atom_type_scat_dispersion_imag
-_atom_type_scat_source
-pb -4.81800 8.50500
-International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
-zr -0.31400 2.24500
-International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
-ti 0.18900 1.80700
-International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
-o 0.04700 0.03200
-International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
-loop_
 _atom_site_type_symbol
 _atom_site_label
 _atom_site_fract_x
@@ -140,4 +131,16 @@ Pb Pb1 0.00000 0.00000 0.00000 0.0217(5) Uiso 1.00000
 Zr Zr1 0.50000 0.50000 0.50000 0.00000 Uiso 0.65000
 Ti Ti1 0.50000 0.50000 0.50000 0.00000 Uiso 0.35000
 O O1 0.50000 0.50000 0.00000 0.026(3) Uiso 1.00000
-_cod_database_code 2102946
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+pb -4.81800 8.50500
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+zr -0.31400 2.24500
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+ti 0.18900 1.80700
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+o 0.04700 0.03200
+International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5

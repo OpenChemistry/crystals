@@ -1,10 +1,7 @@
-# Part of the Crystallography Open Database
-# All data on this site have been placed in the public domain by the
-# contributors.
 #------------------------------------------------------------------------------
-#$Date: 2010-06-10 15:11:07 +0000 (Thu, 10 Jun 2010) $
-#$Revision: 1210 $
-#$URL: svn://cod.ibt.lt/cod/cif/9/9008283.cif $
+#$Date: 2024-05-02 13:48:35 +0300 (Thu, 02 May 2024) $
+#$Revision: 291455 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/82/9008283.cif $
 #------------------------------------------------------------------------------
 #
 # This file is available in the Crystallography Open Database (COD),
@@ -41,11 +38,11 @@ _cell_angle_gamma                90
 _cell_length_a                   8.3593
 _cell_length_b                   4.9725
 _cell_length_c                   6.1975
+_cell_formula_units_Z            4
 _cell_volume                     233.795
 _exptl_crystal_density_diffrn    2.099
-_[local]_cod_chemical_formula_sum_orig 'Li2 C O3'
+_cod_original_formula_sum        'Li2 C O3'
 _cod_database_code               9008283
-_amcsd_database_code             AMCSD#0010487
 loop_
 _symmetry_equiv_pos_as_xyz
 x,y,z
@@ -77,3 +74,4 @@ Li 0.19650 0.44840 0.83440
 C 0.00000 0.06570 0.25000
 O1 0.00000 0.32130 0.25000
 O2 0.14590 -0.06350 0.31270
+_database_code_amcsd 0010813

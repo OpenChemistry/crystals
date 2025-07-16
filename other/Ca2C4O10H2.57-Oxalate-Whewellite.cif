@@ -1,10 +1,7 @@
-# Part of the Crystallography Open Database
-# All data on this site have been placed in the public domain by the
-# contributors.
 #------------------------------------------------------------------------------
-#$Date: 2010-06-10 15:11:07 +0000 (Thu, 10 Jun 2010) $
-#$Revision: 1210 $
-#$URL: svn://cod.ibt.lt/cod/cif/9/9000763.cif $
+#$Date: 2023-05-10 20:44:19 +0300 (Wed, 10 May 2023) $
+#$Revision: 283658 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/07/9000763.cif $
 #------------------------------------------------------------------------------
 #
 # This file is available in the Crystallography Open Database (COD),
@@ -39,17 +36,18 @@ _symmetry_space_group_name_H-M   'P 1 21/c 1'
 _cell_angle_alpha                90
 _cell_angle_beta                 109.46
 _cell_angle_gamma                90
+_cell_formula_units_Z            4
 _cell_length_a                   6.290
 _cell_length_b                   14.583
 _cell_length_c                   10.116
 _cell_volume                     874.903
+_database_code_amcsd             0000776
 _exptl_crystal_density_diffrn    2.208
-_[local]_cod_chemical_formula_sum_orig 'Ca2 C4 O10 H2.57'
 _cod_original_cell_volume        874.904
+_cod_original_formula_sum        'Ca2 C4 O10 H2.57'
 _cod_database_code               9000763
-_amcsd_database_code             AMCSD#0000775
 loop_
-_symmetry_equiv_pos_as_xyz
+_space_group_symop_operation_xyz
 x,y,z
 x,1/2-y,1/2+z
 -x,1/2+y,1/2-z
@@ -85,24 +83,45 @@ _atom_site_fract_y
 _atom_site_fract_z
 _atom_site_occupancy
 _atom_site_U_iso_or_equiv
-Ca1 0.96760 0.12430 0.05460 1.00000 0.00849
-Ca2 0.99680 0.12360 0.43570 1.00000 0.00836
-C1 0.98320 0.32010 0.24520 1.00000 0.01013
-C2 0.00090 0.42700 0.24920 1.00000 0.00975
-C3 0.51890 0.12660 0.18120 1.00000 0.01355
-C4 0.45050 0.11730 0.31310 1.00000 0.01368
-O1 0.97560 0.28260 0.13220 1.00000 0.01469
-O2 0.00660 0.46590 0.13950 1.00000 0.01444
-O3 0.97990 0.28190 0.35500 1.00000 0.01482
-O4 0.00730 0.46580 0.36140 1.00000 0.01532
-O5 0.36140 0.14180 0.06900 1.00000 0.02786
-O6 0.72450 0.12270 0.19740 1.00000 0.01469
-O7 0.24380 0.12290 0.29570 1.00000 0.01659
-O8 0.60730 0.10680 0.42640 1.00000 0.02837
-H11 0.48700 0.37200 0.05100 0.85000 0.06333
-H21 0.51000 0.36400 0.42600 0.86000 0.06333
-H22 0.53000 0.36700 0.32000 0.86000 0.06333
-OW1 0.39320 0.34590 0.10220 0.85000 0.02292
-OW2 0.59130 0.38290 0.39080 0.86000 0.05674
-OW10 0.38800 0.39600 0.09900 0.15000 0.02280
-OW20 0.58400 0.40900 0.39200 0.14000 0.05699
+_atom_site_type_symbol
+_atom_site_attached_hydrogens
+Ca1 0.96760 0.12430 0.05460 1.00000 0.00849 Ca 0
+Ca2 0.99680 0.12360 0.43570 1.00000 0.00836 Ca 0
+C1 0.98320 0.32010 0.24520 1.00000 0.01013 C 0
+C2 0.00090 0.42700 0.24920 1.00000 0.00975 C 0
+C3 0.51890 0.12660 0.18120 1.00000 0.01355 C 0
+C4 0.45050 0.11730 0.31310 1.00000 0.01368 C 0
+O1 0.97560 0.28260 0.13220 1.00000 0.01469 O 0
+O2 0.00660 0.46590 0.13950 1.00000 0.01444 O 0
+O3 0.97990 0.28190 0.35500 1.00000 0.01482 O 0
+O4 0.00730 0.46580 0.36140 1.00000 0.01532 O 0
+O5 0.36140 0.14180 0.06900 1.00000 0.02786 O 0
+O6 0.72450 0.12270 0.19740 1.00000 0.01469 O 0
+O7 0.24380 0.12290 0.29570 1.00000 0.01659 O 0
+O8 0.60730 0.10680 0.42640 1.00000 0.02837 O 0
+H11 0.48700 0.37200 0.05100 0.85000 0.06333 H 0
+H21 0.51000 0.36400 0.42600 0.86000 0.06333 H 0
+H22 0.53000 0.36700 0.32000 0.86000 0.06333 H 0
+OW1 0.39320 0.34590 0.10220 0.85000 0.02292 O 0
+OW2 0.59130 0.38290 0.39080 0.86000 0.05674 O 0
+OW10 0.38800 0.39600 0.09900 0.15000 0.02280 O 0
+OW20 0.58400 0.40900 0.39200 0.14000 0.05699 O 0
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.8.0
+Id: cif_guess_AMCSD_atom_types 9574 2023-05-10 09:00:05Z saulius
+;
+2023-05-10T18:46:42+03:00
+;Derived atom types and hydrogen counts
+from atom names that follow the AMCSD naming convention
+(Wat == water, O-H == hydroxyl).
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0000776

@@ -1,10 +1,7 @@
-# Part of the Crystallography Open Database
-# All data on this site have been placed in the public domain by the
-# contributors.
 #------------------------------------------------------------------------------
-#$Date: 2010-06-10 15:11:07 +0000 (Thu, 10 Jun 2010) $
-#$Revision: 1210 $
-#$URL: svn://cod.ibt.lt/cod/cif/9/9011304.cif $
+#$Date: 2024-05-09 11:47:05 +0300 (Thu, 09 May 2024) $
+#$Revision: 291792 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/13/9011304.cif $
 #------------------------------------------------------------------------------
 #
 # This file is available in the Crystallography Open Database (COD),
@@ -26,14 +23,16 @@ _publ_author_name
 _publ_section_title
 ;
  Sodium carbonate revisited
- Locality: synthetic
  Sample: Gamma phase, T = 295 K
 ;
+_journal_issue                   3
 _journal_name_full               'Acta Crystallographica, Section B'
 _journal_page_first              337
 _journal_page_last               352
+_journal_paper_doi               10.1107/S0108768103009017
 _journal_volume                  59
 _journal_year                    2003
+_chemical_compound_source        Synthetic
 _chemical_formula_sum            'C Na2 O3'
 _chemical_name_mineral           Natrite
 _space_group_IT_number           12
@@ -45,14 +44,15 @@ _cell_angle_gamma                90
 _cell_length_a                   8.920
 _cell_length_b                   5.245
 _cell_length_c                   6.050
+_cell_formula_units_Z            4
 _cell_volume                     277.516
+_database_code_amcsd             0009928
 _diffrn_ambient_temperature      295
 _exptl_crystal_density_diffrn    2.537
-_[local]_cod_chemical_formula_sum_orig 'Na2 C O3'
+_cod_original_formula_sum        'Na2 C O3'
 _cod_database_code               9011304
-_amcsd_database_code             AMCSD#0009711
 loop_
-_symmetry_equiv_pos_as_xyz
+_space_group_symop_operation_xyz
 x,y,z
 1/2+x,1/2+y,z
 x,-y,z
@@ -87,3 +87,8 @@ Na3 0.17055 0.50000 0.74801 0.02554
 C 0.16446 0.50000 0.24914 0.01155
 O1 0.10159 0.29384 0.28535 0.02607
 O2 0.28987 0.50000 0.17757 0.02274
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0009928

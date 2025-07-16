@@ -1,10 +1,7 @@
-# Part of the Crystallography Open Database
-# All data on this site have been placed in the public domain by the
-# contributors.
 #------------------------------------------------------------------------------
-#$Date: 2010-01-30 13:59:17 +0000 (Sat, 30 Jan 2010) $
-#$Revision: 966 $
-#$URL: svn://cod.ibt.lt/cod/cif/2/2002079.cif $
+#$Date: 2017-10-13 03:08:28 +0300 (Fri, 13 Oct 2017) $
+#$Revision: 201955 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/00/20/2002079.cif $
 #------------------------------------------------------------------------------
 #
 # This file is available in the Crystallography Open Database (COD),
@@ -28,6 +25,7 @@ _journal_issue                   1
 _journal_name_full               'Acta Crystallographica Section C'
 _journal_page_first              125
 _journal_page_last               126
+_journal_paper_doi               10.1107/S0108270192009661
 _journal_volume                  49
 _journal_year                    1993
 _chemical_formula_sum            S8
@@ -102,29 +100,29 @@ _refine_ls_number_reflns         939
 _refine_ls_R_factor_obs          0.036
 _refine_ls_shift/esd_max         0.004
 _refine_ls_structure_factor_coef F
-_refine_ls_weighting_scheme      '4F~o~^2^/ [\s^2^(F~o~^2^) + 0.0011F~o~^4^]'
+_refine_ls_weighting_details
+'w = 4F~o~^2^/ [\s^2^(F~o~^2^) + 0.0011F~o~^4^]'
+_refine_ls_weighting_scheme      calc
 _refine_ls_wR_factor_obs         0.041
 _reflns_number_observed          939
 _reflns_number_total             1727
 _reflns_observed_criterion       I>3.0\s(I)
-_[local]_cod_data_source_file    ab1021.cif
-_[local]_cod_data_source_block   ab1021_structure_1_of_1
-_[local]_cod_cif_authors_sg_H-M  'P 1 2/c 1                       '
-loop_
-_atom_site_label
-_atom_site_fract_x
-_atom_site_fract_y
-_atom_site_fract_z
-_atom_site_U_iso_or_equiv
-_atom_site_thermal_displace_type
-S1 0.6485(2) 0.34570(10) 0.3247(2) 0.0671(7) Uani
-S2 0.81100(10) 0.57920(10) 0.47080(10) 0.0522(6) Uani
-S3 0.7446(2) 0.44300(10) 0.53190(10) 0.0534(6) Uani
-S4 0.5836(2) 0.67680(10) 0.38400(10) 0.0511(5) Uani
-S5 0.0799(2) 0.79790(10) 0.1993(2) 0.0614(6) Uani
-S6 0.2427(2) 1.03100(10) 0.2201(2) 0.0787(7) Uani
-S7 0.3074(2) 0.89380(10) 0.3501(2) 0.0640(7) Uani
-S8 0.1483(2) 1.12710(10) 0.3294(2) 0.0744(7) Uani
+_cod_data_source_file            ab1021.cif
+_cod_data_source_block           ab1021_structure_1_of_1
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+
+'_refine_ls_weighting_scheme' value '4F~o~^2^/ [\s^2^(F~o~^2^) +
+0.0011F~o~^4^]' was changed to 'calc'. New tag
+'_refine_ls_weighting_details' was created. The value of the new tag
+was set to 'w = 4F~o~^2^/ [\s^2^(F~o~^2^) + 0.0011F~o~^4^]'.
+
+Automatic conversion script
+Id: cif_fix_values 3143 2015-03-26 13:38:13Z robertas 
+;
+_cod_original_sg_symbol_H-M      'P 1 2/c 1                       '
+_cod_database_code               2002079
 loop_
 _atom_site_aniso_label
 _atom_site_aniso_U_11
@@ -142,20 +140,20 @@ S6 0.0760(5) 0.0880(10) 0.0731(5) -0.0369(6) 0.0533(3) -0.0208(6)
 S7 0.0421(5) 0.0930(10) 0.0674(7) 0.0069(7) 0.0246(4) -0.0128(7)
 S8 0.1215(8) 0.0496(8) 0.0682(6) -0.0331(7) 0.0571(5) -0.0219(6)
 loop_
-_geom_bond_atom_site_label_1
-_geom_bond_atom_site_label_2
-_geom_bond_distance
-_geom_bond_publ_flag
-S1 S1 2.060(2) yes
-S1 S3 2.043(2) yes
-S2 S3 2.040(2) yes
-S2 S4 2.049(2) yes
-S4 S4 2.0370(10) yes
-S5 S5 2.039(3) yes
-S5 S7 2.035(2) yes
-S6 S7 2.051(2) yes
-S6 S8 2.040(3) yes
-S8 S8 2.058(2) yes
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_thermal_displace_type
+S1 0.6485(2) 0.34570(10) 0.3247(2) 0.0671(7) Uani
+S2 0.81100(10) 0.57920(10) 0.47080(10) 0.0522(6) Uani
+S3 0.7446(2) 0.44300(10) 0.53190(10) 0.0534(6) Uani
+S4 0.5836(2) 0.67680(10) 0.38400(10) 0.0511(5) Uani
+S5 0.0799(2) 0.79790(10) 0.1993(2) 0.0614(6) Uani
+S6 0.2427(2) 1.03100(10) 0.2201(2) 0.0787(7) Uani
+S7 0.3074(2) 0.89380(10) 0.3501(2) 0.0640(7) Uani
+S8 0.1483(2) 1.12710(10) 0.3294(2) 0.0744(7) Uani
 loop_
 _geom_angle_atom_site_label_1
 _geom_angle_atom_site_label_2
@@ -170,6 +168,21 @@ S5 S5 S7 107.38(9) yes
 S7 S6 S8 107.10(10) yes
 S5 S7 S6 107.71(7) yes
 S6 S8 S8 107.95(8) yes
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_publ_flag
+S1 S1 2.060(2) yes
+S1 S3 2.043(2) yes
+S2 S3 2.040(2) yes
+S2 S4 2.049(2) yes
+S4 S4 2.0370(10) yes
+S5 S5 2.039(3) yes
+S5 S7 2.035(2) yes
+S6 S7 2.051(2) yes
+S6 S8 2.040(3) yes
+S8 S8 2.058(2) yes
 loop_
 _geom_torsion_atom_site_label_1
 _geom_torsion_atom_site_label_2
@@ -187,4 +200,8 @@ S7 S5 S5' S7' 99.80(10) yes
 S8 S6 S7 S5 99.20(10) yes
 S7 S6 S8 S8' -98.60(10) yes
 S6 S8 S8' S6' 99.50(10) yes
-_cod_database_code 2002079
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 ChemSpider 59726

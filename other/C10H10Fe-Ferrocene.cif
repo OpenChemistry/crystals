@@ -1,10 +1,7 @@
-# Part of the Crystallography Open Database
-# All data on this site have been placed in the public domain by the
-# contributors.
 #------------------------------------------------------------------------------
-#$Date: 2010-01-30 13:59:17 +0000 (Sat, 30 Jan 2010) $
-#$Revision: 966 $
-#$URL: svn://cod.ibt.lt/cod/cif/2/2101932.cif $
+#$Date: 2016-02-14 16:26:36 +0200 (Sun, 14 Feb 2016) $
+#$Revision: 176435 $
+#$URL: svn://www.crystallography.net/cod/cif/2/10/19/2101932.cif $
 #------------------------------------------------------------------------------
 #
 # This file is available in the Crystallography Open Database (COD),
@@ -28,10 +25,10 @@ _journal_issue                   6
 _journal_name_full               'Acta Crystallographica Section B'
 _journal_page_first              928
 _journal_page_last               938
+_journal_paper_doi               10.1107/S0108768197005132
 _journal_volume                  53
 _journal_year                    1997
 _chemical_formula_sum            'C10 H10 Fe'
-_[local]_cod_chemical_formula_sum_orig 'C10 H10 Fe1'
 _chemical_formula_weight         186.04
 _symmetry_cell_setting           monoclinic
 _symmetry_space_group_name_Hall  '-P 2yab'
@@ -44,9 +41,12 @@ _cell_length_a                   10.443(5)
 _cell_length_b                   7.572(4)
 _cell_length_c                   5.824(4)
 _cell_volume                     395.0(5)
+_diffrn_radiation_probe          neutron
 _diffrn_radiation_type           neutron
 _diffrn_radiation_wavelength     1.0399
-_[local]_cod_data_source_file    cr0517.cif
+_cod_data_source_file            cr0517.cif
+_cod_original_formula_sum        'C10 H10 Fe1'
+_cod_database_code               2101932
 loop_
 _atom_site_label
 _atom_site_fract_x
@@ -63,4 +63,3 @@ H(12) -.0304 .1975 -.4297
 H(13) .1985 -.0233 -.1871
 H(14) .3079 -.0006 .3359
 H(15) .1467 .2342 .4165
-_cod_database_code 2101932

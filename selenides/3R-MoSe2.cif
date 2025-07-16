@@ -1,7 +1,7 @@
 #------------------------------------------------------------------------------
-#$Date: 2018-09-27 06:13:35 +0200 (jue 27 de sep de 2018) $
+#$Date: 2018-09-27 07:13:35 +0300 (Thu, 27 Sep 2018) $
 #$Revision: 211196 $
-#$URL: svn://www.crystallography.net/cod/cif/1/52/89/1528933.cif $
+#$URL: file:///home/coder/svn-repositories/cod/cif/1/52/89/1528933.cif $
 #------------------------------------------------------------------------------
 #
 # This file is available in the Crystallography Open Database (COD),

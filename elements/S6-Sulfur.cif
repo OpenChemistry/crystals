@@ -1,10 +1,7 @@
-# Part of the Crystallography Open Database
-# All data on this site have been placed in the public domain by the
-# contributors.
 #------------------------------------------------------------------------------
-#$Date: 2011-06-11 06:04:15 +0000 (Sat, 11 Jun 2011) $
-#$Revision: 20519 $
-#$URL: file:///home/coder/svn-repositories/cod/cif/9/9012361.cif $
+#$Date: 2024-05-16 09:36:09 +0300 (Thu, 16 May 2024) $
+#$Revision: 291877 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/23/9012361.cif $
 #------------------------------------------------------------------------------
 #
 # This file is available in the Crystallography Open Database (COD),
@@ -23,16 +20,14 @@ _publ_author_name
 'Pickardt, J.'
 'Steudel, R.'
 _publ_section_title
-;
- Redetermination of the crystal and molecular structure of cyclohexasulfur, S6
- Locality: synthetic
- Sample: at T = 183 K
+;Redetermination of the crystal and molecular structure of cyclohexasulfur, S6
 ;
 _journal_name_full               'Zeitschrift fur Naturforschung B'
 _journal_page_first              1554
 _journal_page_last               1555
 _journal_volume                  33
 _journal_year                    1978
+_chemical_compound_source        Synthetic
 _chemical_formula_sum            S6
 _chemical_name_mineral           Sulfur
 _space_group_IT_number           148
@@ -44,14 +39,15 @@ _cell_angle_gamma                120
 _cell_length_a                   10.766
 _cell_length_b                   10.766
 _cell_length_c                   4.225
+_cell_formula_units_Z            3
 _cell_volume                     424.098
+_database_code_amcsd             0015833
 _diffrn_ambient_temperature      183
 _exptl_crystal_density_diffrn    2.260
-_[local]_cod_cif_authors_sg_H-M  'R -3'
+_cod_original_sg_symbol_H-M      'R -3'
 _cod_database_code               9012361
-_amcsd_database_code             AMCSD#0013030
 loop_
-_symmetry_equiv_pos_as_xyz
+_space_group_symop_operation_xyz
 x,y,z
 2/3+x,1/3+y,1/3+z
 1/3+x,2/3+y,2/3+z
@@ -85,3 +81,9 @@ _atom_site_fract_x
 _atom_site_fract_y
 _atom_site_fract_z
 S 0.19050 0.14750 0.39400
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 ChemSpider 123119
+2 AMCSD 0015833

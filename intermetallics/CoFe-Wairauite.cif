@@ -1,10 +1,7 @@
-# Part of the Crystallography Open Database
-# All data on this site have been placed in the public domain by the
-# contributors.
 #------------------------------------------------------------------------------
-#$Date: 2010-06-10 15:11:07 +0000 (Thu, 10 Jun 2010) $
-#$Revision: 1210 $
-#$URL: svn://cod.ibt.lt/cod/cif/9/9004229.cif $
+#$Date: 2024-04-25 17:59:02 +0300 (Thu, 25 Apr 2024) $
+#$Revision: 291351 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/42/9004229.cif $
 #------------------------------------------------------------------------------
 #
 # This file is available in the Crystallography Open Database (COD),
@@ -41,12 +38,13 @@ _cell_angle_gamma                90
 _cell_length_a                   2.857
 _cell_length_b                   2.857
 _cell_length_c                   2.857
+_cell_formula_units_Z            1
 _cell_volume                     23.320
+_database_code_amcsd             0005254
 _exptl_crystal_density_diffrn    8.173
 _cod_database_code               9004229
-_amcsd_database_code             AMCSD#0005214
 loop_
-_symmetry_equiv_pos_as_xyz
+_space_group_symop_operation_xyz
 x,y,z
 z,-x,y
 -y,z,-x
@@ -102,3 +100,8 @@ _atom_site_fract_y
 _atom_site_fract_z
 Co 0.00000 0.00000 0.00000
 Fe 0.50000 0.50000 0.50000
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0005254

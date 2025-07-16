@@ -1,10 +1,7 @@
-# Part of the Crystallography Open Database
-# All data on this site have been placed in the public domain by the
-# contributors.
 #------------------------------------------------------------------------------
-#$Date: 2010-06-10 15:11:07 +0000 (Thu, 10 Jun 2010) $
-#$Revision: 1210 $
-#$URL: svn://cod.ibt.lt/cod/cif/9/9001690.cif $
+#$Date: 2024-08-07 20:09:39 +0300 (Wed, 07 Aug 2024) $
+#$Revision: 294031 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/16/9001690.cif $
 #------------------------------------------------------------------------------
 #
 # This file is available in the Crystallography Open Database (COD),
@@ -23,10 +20,9 @@ _publ_author_name
 'Peterson, R. C.'
 'Hunter, B. K.'
 _publ_section_title
-;
- Study of the cubic to tetragonal transition in Mg2TiO4 and Zn2TiO4 spinels by
- 17O MAS NMR and Rietveld refinement of X-ray diffraction data
- Sample: RLM445, 1405 C, Mg2TiO4
+;Study of the cubic to tetragonal transition in Mg2TiO4 and Zn2TiO4 spinels by
+ 17O MAS NMR and Rietveld refinement of X-ray diffraction data Sample: RLM445,
+ 1405 C, Mg2TiO4
 ;
 _journal_name_full               'American Mineralogist'
 _journal_page_first              885
@@ -41,17 +37,18 @@ _symmetry_space_group_name_H-M   'F d -3 m :2'
 _cell_angle_alpha                90
 _cell_angle_beta                 90
 _cell_angle_gamma                90
+_cell_formula_units_Z            8
 _cell_length_a                   8.44183
 _cell_length_b                   8.44183
 _cell_length_c                   8.44183
 _cell_volume                     601.603
+_database_code_amcsd             0001746
 _exptl_crystal_density_diffrn    3.544
-_[local]_cod_cif_authors_sg_H-M  'F d 3 m'
-_[local]_cod_chemical_formula_sum_orig '(Ti Mg2) O4'
+_cod_original_sg_symbol_H-M      'F d 3 m'
+_cod_original_formula_sum        '(Ti Mg2) O4'
 _cod_database_code               9001690
-_amcsd_database_code             AMCSD#0001745
 loop_
-_symmetry_equiv_pos_as_xyz
+_space_group_symop_operation_xyz
 x,y,z
 x,1/2+y,1/2+z
 1/2+x,y,1/2+z
@@ -251,8 +248,29 @@ _atom_site_fract_y
 _atom_site_fract_z
 _atom_site_occupancy
 _atom_site_U_iso_or_equiv
-Ti 0.12500 0.12500 0.12500 0.03600 0.00671
-Mg 0.12500 0.12500 0.12500 0.96400 0.00671
-Ti 0.50000 0.50000 0.50000 0.48200 0.00519
-Mg 0.50000 0.50000 0.50000 0.51800 0.00519
+Ti1 0.12500 0.12500 0.12500 0.03600 0.00671
+Mg1 0.12500 0.12500 0.12500 0.96400 0.00671
+Ti2 0.50000 0.50000 0.50000 0.48200 0.00519
+Mg2 0.50000 0.50000 0.50000 0.51800 0.00519
 O 0.26160 0.26160 0.26160 1.00000 0.00785
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.10.1
+Id: cif_fix_AMCSD_atom_labels 10224 2024-08-07 11:09:31Z saulius
+;
+2024-08-07T19:38:15+03:00
+;Changed the following '_atom_site_label' values:
+the first duplicated label 'Ti'  converted to 'Ti1'
+duplicated label 'Ti' at index 2 converted to 'Ti2'
+the first duplicated label 'Mg'  converted to 'Mg1'
+duplicated label 'Mg' at index 3 converted to 'Mg2'
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0001746

@@ -1,10 +1,7 @@
-# Part of the Crystallography Open Database
-# All data on this site have been placed in the public domain by the
-# contributors.
 #------------------------------------------------------------------------------
-#$Date: 2010-06-10 15:11:07 +0000 (Thu, 10 Jun 2010) $
-#$Revision: 1210 $
-#$URL: svn://cod.ibt.lt/cod/cif/9/9010999.cif $
+#$Date: 2024-05-09 11:47:05 +0300 (Thu, 09 May 2024) $
+#$Revision: 291792 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/01/09/9010999.cif $
 #------------------------------------------------------------------------------
 #
 # This file is available in the Crystallography Open Database (COD),
@@ -32,10 +29,11 @@ _publ_section_title
 _journal_name_full               'Acta Crystallographica'
 _journal_page_first              559
 _journal_page_last               563
+_journal_paper_doi               10.1107/S0365110X5600156X
 _journal_volume                  9
 _journal_year                    1956
 _chemical_formula_sum            Sm
-_chemical_name_mineral           Samarium
+_chemical_name_common            Samarium
 _space_group_IT_number           194
 _symmetry_space_group_name_Hall  '-P 6c 2c'
 _symmetry_space_group_name_H-M   'P 63/m m c'
@@ -45,10 +43,10 @@ _cell_angle_gamma                120
 _cell_length_a                   3.621
 _cell_length_b                   3.621
 _cell_length_c                   26.25
+_cell_formula_units_Z            2
 _cell_volume                     298.069
 _exptl_crystal_density_diffrn    1.675
 _cod_database_code               9010999
-_amcsd_database_code             AMCSD#0009118
 loop_
 _symmetry_equiv_pos_as_xyz
 x,y,z
@@ -81,3 +79,8 @@ _atom_site_fract_x
 _atom_site_fract_y
 _atom_site_fract_z
 Sm 0.33333 0.66667 0.25000
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 ChemSpider 22391

@@ -1,10 +1,7 @@
-# Part of the Crystallography Open Database
-# All data on this site have been placed in the public domain by the
-# contributors.
 #------------------------------------------------------------------------------
-#$Date: 2010-06-10 15:11:07 +0000 (Thu, 10 Jun 2010) $
-#$Revision: 1210 $
-#$URL: svn://cod.ibt.lt/cod/cif/9/9008580.cif $
+#$Date: 2025-01-06 11:28:00 +0200 (Mon, 06 Jan 2025) $
+#$Revision: 297067 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/85/9008580.cif $
 #------------------------------------------------------------------------------
 #
 # This file is available in the Crystallography Open Database (COD),
@@ -30,31 +27,51 @@ _journal_page_last               83
 _journal_volume                  1
 _journal_year                    1963
 _chemical_formula_sum            Te
+_chemical_name_common            Tellurium
 _chemical_name_mineral           Tellurium
+_chemical_name_systematic        Tellurium
 _space_group_IT_number           154
-_symmetry_space_group_name_Hall  'P 32 2"'
-_symmetry_space_group_name_H-M   'P 32 2 1'
+_space_group_name_Hall           'P 32 2"'
+_space_group_name_H-M_alt        'P 32 2 1'
 _cell_angle_alpha                90
 _cell_angle_beta                 90
 _cell_angle_gamma                120
+_cell_formula_units_Z            3
 _cell_length_a                   4.44693
 _cell_length_b                   4.44693
 _cell_length_c                   5.91492
 _cell_volume                     101.298
-_exptl_crystal_density_diffrn    3.883
+_exptl_crystal_density_diffrn    6.275
 _cod_database_code               9008580
-_amcsd_database_code             AMCSD#0010911
 loop_
-_symmetry_equiv_pos_as_xyz
-x,y,z
-y,x,-z
--y,x-y,2/3+z
--x,-x+y,2/3-z
--x+y,-x,1/3+z
-x-y,-y,1/3-z
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 x,y,z
+2 y,x,-z
+3 -y,x-y,2/3+z
+4 -x,-x+y,2/3-z
+5 -x+y,-x,1/3+z
+6 x-y,-y,1/3-z
 loop_
 _atom_site_label
 _atom_site_fract_x
 _atom_site_fract_y
 _atom_site_fract_z
 Te 0.26900 0.00000 0.16667
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1 'Vaitkus, Antanas' 2025-01-06T11:20:06+02:00
+;
+ Changed the atom type from 'Se' to 'Te' and updated the related data items
+ accordingly. The incorrect atom type was initially accidentally introduced
+ upstream in the AMCSD database where it was later on corrected during the
+ data curation process.
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0011258

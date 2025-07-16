@@ -1,7 +1,7 @@
 #------------------------------------------------------------------------------
-#$Date: 2010-01-30 13:59:17 +0000 (Sat, 30 Jan 2010) $
-#$Revision: 966 $
-#$URL: svn://cod.ibt.lt/cod/cif/1/1010914.cif $
+#$Date: 2023-03-24 18:37:27 +0200 (Fri, 24 Mar 2023) $
+#$Revision: 282053 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/1/01/09/1010914.cif $
 #------------------------------------------------------------------------------
 #
 # This file is available in the Crystallography Open Database (COD),
@@ -11,54 +11,54 @@
 # contributors.
 #
 data_1010914
-_chemical_name_systematic          'Aluminium oxide'
-_chemical_name_mineral             'Corundum'
-_chemical_formula_structural       'Al2 O3'
-_chemical_formula_sum              'Al2 O3'
-_publ_section_title                'Crystal Structures of Hematite and Corundum'
-_space_group_IT_number           167
-_symmetry_space_group_name_Hall  '-P 3* 2n'
-_symmetry_space_group_name_H-M   'R -3 c :R'
-_[local]_cod_cif_authors_sg_H-M  'R -3 c R'
 loop_
 _publ_author_name
-  'Pauling, L'
-  'Hendricks, S B'
-_journal_name_full                 'Journal of the American Chemical Society'
-_journal_coden_ASTM                JACSAT
-_journal_volume                    47
-_journal_year                      1925
-_journal_page_first                781
-_journal_page_last                 790
-_cell_length_a                     5.12(1)
-_cell_length_b                     5.12(1)
-_cell_length_c                     5.12(1)
-_cell_angle_alpha                  55.28
-_cell_angle_beta                   55.28
-_cell_angle_gamma                  55.28
-_cell_volume                       84.5
-_cell_formula_units_Z              2
-_exptl_crystal_density_meas        3.99
-_symmetry_cell_setting             trigonal
+'Pauling, L'
+'Hendricks, S B'
+_publ_section_title              'Crystal Structures of Hematite and Corundum'
+_journal_coden_ASTM              JACSAT
+_journal_name_full               'Journal of the American Chemical Society'
+_journal_page_first              781
+_journal_page_last               790
+_journal_paper_doi               10.1021/ja01680a027
+_journal_volume                  47
+_journal_year                    1925
+_chemical_compound_source        Ceylon
+_chemical_formula_structural     'Al2 O3'
+_chemical_formula_sum            'Al2 O3'
+_chemical_name_mineral           Corundum
+_chemical_name_systematic        'Aluminium oxide'
+_space_group_IT_number           167
+_symmetry_cell_setting           trigonal
+_symmetry_space_group_name_Hall  '-P 3* 2n'
+_symmetry_space_group_name_H-M   'R -3 c :R'
+_cell_angle_alpha                55.28
+_cell_angle_beta                 55.28
+_cell_angle_gamma                55.28
+_cell_formula_units_Z            2
+_cell_length_a                   5.12(1)
+_cell_length_b                   5.12(1)
+_cell_length_c                   5.12(1)
+_cell_volume                     84.5
+_database_code_amcsd             0014077
+_exptl_crystal_density_diffrn    4.008
+_exptl_crystal_density_meas      3.99
+_cod_original_sg_symbol_H-M      'R -3 c R'
+_cod_database_code               1010914
 loop_
-_symmetry_equiv_pos_as_xyz
-  'x,y,z'
-  'y,z,x'
-  'z,x,y'
-  '-x,-y,-z'
-  '-y,-z,-x'
-  '-z,-x,-y'
-  '1/2+y,1/2+x,1/2+z'
-  '1/2+z,1/2+y,1/2+x'
-  '1/2+x,1/2+z,1/2+y'
-  '1/2-y,1/2-x,1/2-z'
-  '1/2-z,1/2-y,1/2-x'
-  '1/2-x,1/2-z,1/2-y'
-loop_
-_atom_type_symbol
-_atom_type_oxidation_number
-  Al3+   3.000
-  O2-   -2.000
+_space_group_symop_operation_xyz
+x,y,z
+y,z,x
+z,x,y
+-x,-y,-z
+-y,-z,-x
+-z,-x,-y
+1/2+y,1/2+x,1/2+z
+1/2+z,1/2+y,1/2+x
+1/2+x,1/2+z,1/2+y
+1/2-y,1/2-x,1/2-z
+1/2-z,1/2-y,1/2-x
+1/2-x,1/2-z,1/2-y
 loop_
 _atom_site_label
 _atom_site_type_symbol
@@ -70,6 +70,16 @@ _atom_site_fract_z
 _atom_site_occupancy
 _atom_site_attached_hydrogens
 _atom_site_calc_flag
-  Al1   Al3+   4 c 0.355(1) 0.355(1) 0.355(1) 1.  0 d
-  O1    O2-    6 e 0.553(3) -0.053(3) 0.25 1.  0 d
-_cod_database_code 1010914
+Al1 Al3+ 4 c 0.355(1) 0.355(1) 0.355(1) 1. 0 d
+O1 O2- 6 e 0.553(3) -0.053(3) 0.25 1. 0 d
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Al3+ 3.000
+O2- -2.000
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 ChemSpider 8164808
+2 AMCSD 0014077

@@ -1,6 +1,6 @@
 #------------------------------------------------------------------------------
-#$Date: 2012-02-28 15:44:07 +0000 (Tue, 28 Feb 2012) $
-#$Revision: 35913 $
+#$Date: 2024-05-02 13:48:35 +0300 (Thu, 02 May 2024) $
+#$Revision: 291455 $
 #$URL: file:///home/coder/svn-repositories/cod/cif/9/00/68/9006864.cif $
 #------------------------------------------------------------------------------
 #
@@ -28,6 +28,7 @@ _publ_section_title
 _journal_name_full               'Physics and Chemistry of Minerals'
 _journal_page_first              583
 _journal_page_last               589
+_journal_paper_doi               10.1007/s002690000103
 _journal_volume                  27
 _journal_year                    2000
 _chemical_formula_sum            'O3 Sr Ti'
@@ -41,13 +42,14 @@ _cell_angle_gamma                90
 _cell_length_a                   3.90528
 _cell_length_b                   3.90528
 _cell_length_c                   3.90528
+_cell_formula_units_Z            1
 _cell_volume                     59.560
+_database_code_amcsd             0008446
 _exptl_crystal_density_diffrn    5.116
-_[local]_cod_chemical_formula_sum_orig 'Sr Ti O3'
+_cod_original_formula_sum        'Sr Ti O3'
 _cod_database_code               9006864
-_amcsd_database_code             AMCSD#0008385
 loop_
-_symmetry_equiv_pos_as_xyz
+_space_group_symop_operation_xyz
 x,y,z
 z,-x,y
 -y,z,-x
@@ -104,3 +106,8 @@ _atom_site_fract_z
 SrA 0.50000 0.50000 0.50000
 Ti 0.00000 0.00000 0.00000
 O 0.50000 0.00000 0.00000
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0008446
